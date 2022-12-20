@@ -83,7 +83,8 @@
 			"any": "cpp",
 			"climits": "cpp",
 			"stack": "cpp",
-			"queue": "cpp"
+			"queue": "cpp",
+			"xutility": "cpp"
 		},
 		"printcode.lineNumbers": "off"
 	}
