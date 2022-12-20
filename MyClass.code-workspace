@@ -86,6 +86,7 @@
 			"queue": "cpp",
 			"xutility": "cpp"
 		},
-		"printcode.lineNumbers": "off"
+		"printcode.lineNumbers": "off",
+		"print.alternateBrowser": false
 	}
 }
