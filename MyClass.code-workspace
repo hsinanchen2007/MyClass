@@ -84,7 +84,8 @@
 			"climits": "cpp",
 			"stack": "cpp",
 			"queue": "cpp",
-			"xutility": "cpp"
+			"xutility": "cpp",
+			"xlocale": "cpp"
 		},
 		"printcode.lineNumbers": "off",
 		"print.alternateBrowser": false
