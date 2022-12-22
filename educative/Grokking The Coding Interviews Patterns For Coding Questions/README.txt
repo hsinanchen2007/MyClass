@@ -40,6 +40,7 @@ Course Overview
 Course Contents
 
 Hide All Lessons
+
 1. Introduction
     Who should take this course?
     Course Overview
@@ -53,13 +54,13 @@ Hide All Lessons
     Longest Substring with Distinct Characters (hard)
     Longest Substring with Same Letters after Replacement (hard)
     Longest Subarray with Ones after Replacement (hard)
-    Problem Challenge 1
+    Problem Challenge 1, Permutation in a String (hard)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, String Anagrams (hard)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Smallest Window containing Substring (hard)
     Solution Review: Problem Challenge 3
-    Problem Challenge 4
+    Problem Challenge 4, Words Concatenation (hard)
     Solution Review: Problem Challenge 4
 
 3. Pattern: Two Pointers
@@ -72,11 +73,11 @@ Hide All Lessons
     Triplets with Smaller Sum (medium)
     Subarrays with Product Less than a Target (medium)
     Dutch National Flag Problem (medium)
-    Problem Challenge 1
+    Problem Challenge 1, Quadruple Sum to Target (medium)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Comparing Strings containing Backspaces (medium)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Minimum Window Sort (medium)
     Solution Review: Problem Challenge 3
 
 4. Pattern: Fast & Slow pointers
@@ -85,11 +86,11 @@ Hide All Lessons
     Start of LinkedList Cycle (medium)
     Happy Number (medium)
     Middle of the LinkedList (easy)
-    Problem Challenge 1
+    Problem Challenge 1, Palindrome LinkedList (medium)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Rearrange a LinkedList (medium)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Cycle in a Circular Array (hard)
     Solution Review: Problem Challenge 3
 
 5. Pattern: Merge Intervals
@@ -98,11 +99,11 @@ Hide All Lessons
     Insert Interval (medium)
     Intervals Intersection (medium)
     Conflicting Appointments (medium)
-    Problem Challenge 1
+    Problem Challenge 1, Minimum Meeting Rooms (hard)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Maximum CPU Load (hard)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Employee Free Time (hard)
     Solution Review: Problem Challenge 3
 
 6. Pattern: Cyclic Sort
@@ -112,11 +113,11 @@ Hide All Lessons
     Find all Missing Numbers (easy)
     Find the Duplicate Number (easy)
     Find all Duplicate Numbers (easy)
-    Problem Challenge 1
+    Problem Challenge 1, Find the Corrupt Pair (easy)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Find the Smallest Missing Positive Number (medium)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Find the First K Missing Positive Numbers (hard)
     Solution Review: Problem Challenge 3
 
 7. Pattern: In-place Reversal of a LinkedList
@@ -124,9 +125,9 @@ Hide All Lessons
     Reverse a LinkedList (easy)
     Reverse a Sub-list (medium)
     Reverse every K-element Sub-list (medium)
-    Problem Challenge 1
+    Problem Challenge 1, Reverse alternating K-element Sub-list (medium)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Rotate a LinkedList (medium)
     Solution Review: Problem Challenge 2
 
 8. Pattern: Tree Breadth First Search
@@ -138,9 +139,9 @@ Hide All Lessons
     Minimum Depth of a Binary Tree (easy)
     Level Order Successor (easy)
     Connect Level Order Siblings (medium)
-    Problem Challenge 1
+    Problem Challenge 1, Connect All Level Order Siblings (medium)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Right View of a Binary Tree (easy)
     Solution Review: Problem Challenge 2
 
 9. Pattern: Tree Depth First Search
@@ -150,9 +151,9 @@ Hide All Lessons
     Sum of Path Numbers (medium)
     Path With Given Sequence (medium)
     Count Paths for a Sum (medium)
-    Problem Challenge 1
+    Problem Challenge 1, Tree Diameter (medium)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Path with Maximum Sum (hard)
     Solution Review: Problem Challenge 2
 
 10. Pattern: Two Heaps
@@ -160,7 +161,7 @@ Hide All Lessons
     Find the Median of a Number Stream (medium)
     Sliding Window Median (hard)
     Maximize Capital (hard)
-    Problem Challenge 1
+    Problem Challenge 1, Next Interval (hard)
     Solution Review: Problem Challenge 1
 
 11. Pattern: Subsets
@@ -171,11 +172,11 @@ Hide All Lessons
     String Permutations by changing case (medium)
     Balanced Parentheses (hard)
     Unique Generalized Abbreviations (hard)
-    Problem Challenge 1
+    Problem Challenge 1, Evaluate Expression (hard)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Structurally Unique Binary Search Trees (hard)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Count of Structurally Unique Binary Search Trees (hard)
     Solution Review: Problem Challenge 3
 
 12. Pattern: Modified Binary Search
@@ -187,11 +188,11 @@ Hide All Lessons
     Search in a Sorted Infinite Array (medium)
     Minimum Difference Element (medium)
     Bitonic Array Maximum (easy)
-    Problem Challenge 1
+    Problem Challenge 1, Search Bitonic Array (medium)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Search in Rotated Array (medium)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Rotation Count (medium)
     Solution Review: Problem Challenge 3
 
 13. Pattern: Bitwise XOR
@@ -199,7 +200,7 @@ Hide All Lessons
     Single Number (easy)
     Two Single Numbers (medium)
     Complement of Base 10 Number (medium)
-    Problem Challenge 1
+    Problem Challenge 1, Flippnig An Image
     Solution Review: Problem Challenge 1
 
 14. Pattern: Top 'K' Elements
@@ -215,11 +216,11 @@ Hide All Lessons
     Maximum Distinct Elements (medium)
     Sum of Elements (medium)
     Rearrange String (hard)
-    Problem Challenge 1
+    Problem Challenge 1, Rearrange String K Distance Apart (hard)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Scheduling Tasks (hard)
     Solution Review: Problem Challenge 2
-    Problem Challenge 3
+    Problem Challenge 3, Frequency Stack (hard)
     Solution Review: Problem Challenge 3
 
 15. Pattern: K-way merge
@@ -228,7 +229,7 @@ Hide All Lessons
     Kth Smallest Number in M Sorted Lists (Medium)
     Kth Smallest Number in a Sorted Matrix (Hard)
     Smallest Number Range (Hard)
-    Problem Challenge 1
+    Problem Challenge 1, K Pairs with Largest Sums (Hard)
     Solution Review: Problem Challenge 1
 
 16. Pattern : 0/1 Knapsack (Dynamic Programming)
@@ -237,9 +238,9 @@ Hide All Lessons
     Equal Subset Sum Partition (medium)
     Subset Sum (medium)
     Minimum Subset Sum Difference (hard)
-    Problem Challenge 1
+    Problem Challenge 1, Count of Subset Sum (hard)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Target Sum (hard)
     Solution Review: Problem Challenge 2
 
 17. Pattern: Topological Sort (Graph)
@@ -249,9 +250,9 @@ Hide All Lessons
     Tasks Scheduling Order (medium)
     All Tasks Scheduling Orders (hard)
     Alien Dictionary (hard)
-    Problem Challenge 1
+    Problem Challenge 1, Reconstructing a Sequence (hard)
     Solution Review: Problem Challenge 1
-    Problem Challenge 2
+    Problem Challenge 2, Minimum Height Trees (hard)
     Solution Review: Problem Challenge 2
 
 18. Miscellaneous
