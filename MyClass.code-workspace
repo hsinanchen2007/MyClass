@@ -85,7 +85,21 @@
 			"stack": "cpp",
 			"queue": "cpp",
 			"xutility": "cpp",
-			"xlocale": "cpp"
+			"xlocale": "cpp",
+			"bit": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"ios": "cpp",
+			"xfacet": "cpp",
+			"xhash": "cpp",
+			"xiosbase": "cpp",
+			"xlocinfo": "cpp",
+			"xlocnum": "cpp",
+			"xmemory": "cpp",
+			"xstddef": "cpp",
+			"xstring": "cpp",
+			"xtr1common": "cpp",
+			"xtree": "cpp"
 		},
 		"printcode.lineNumbers": "off",
 		"print.alternateBrowser": false
