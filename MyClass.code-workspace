@@ -101,7 +101,12 @@
 			"xtr1common": "cpp",
 			"xtree": "cpp",
 			"xlocmon": "cpp",
-			"xloctime": "cpp"
+			"xloctime": "cpp",
+			"format": "cpp",
+			"locale": "cpp",
+			"stop_token": "cpp",
+			"xlocbuf": "cpp",
+			"xlocmes": "cpp"
 		},
 		"printcode.lineNumbers": "off",
 		"print.alternateBrowser": false
