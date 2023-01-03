@@ -706,3 +706,146 @@ Install Compiler
 Requirements
 C++ Compiler and IDE, Like CodeBlocks , Eclipse , Xcode etc.
 No Programming knowledge required. Course covers C and C++ programming concepts in detail.
+
+
+
+
+
+
+Section 12: Introduction to OOPS
+    1 / 22 | 2hr 24min1 of 22 lectures completed2hr 24min
+    Lecture completed. Progress cannot be changed for this item.
+    Stop
+    156. Introduction to OOPS
+    11min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    157. Principles of Object-Oriented Programming
+    12min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    158. Class vs Objects
+    11min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    159. Writing a Class in C++
+    13min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    160. Demo - Class in C++
+    2min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    161. Pointer to an Object in Heap
+    6min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    162. Demo - Pointer to an Object
+    2min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    163. Philosophy Behind Data Hiding
+    6min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    164. Data Hinding in C++ (Accessors and Mutators)
+    12min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    165. Demo - Accessors and Mutators
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    166. Philosophy Behind Constructors
+    7min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    167. Constructors
+    12min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    168. Deep Copy Constructor
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    169. Demo - Constructors
+    8min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    170. All Types of Functions in a Class
+    6min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    171. Scope Resolution Operator
+    7min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    172. Demo - Scope Resolution
+    6min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    173. Inline Functions
+    3min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    174. Demo - This Pointer
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    175. Struct vs Class
+    3min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    176. Practice Student Exercise #9
+    2min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Start
+    Quiz 7: Quiz for OOPs
+
+
+
+
+
+
+
+
+
+
