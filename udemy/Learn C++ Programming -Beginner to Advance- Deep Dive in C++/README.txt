@@ -842,8 +842,137 @@ Section 12: Introduction to OOPS
 
 
 
+Section 13: Operator Overloading
+    7 / 8 | 46min7 of 8 lectures completed46min
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    177. Operator Overloading
+    14min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    178. Demo - Operator Overloading
+    7min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    179. Friend Operator Overloading
+    5min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    180. Demo - Operator Overloading using Friend functions
+    6min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    181. Insertion Operator Overloading
+    7min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    182. Demo - Insertion Operator Overloading
+    6min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    183. Practice Student Exercise #10
+    2min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Start
+    Quiz 8: Quiz for Overloading
 
 
+
+Section 14: Inheritance
+    0 / 15 | 1hr 49min0 of 15 lectures completed1hr 49min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    184. Inheritance Introduction
+    12min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    185. Inheritance Examples
+    8min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    186. Demo - Inheritance
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    187. Demo - Inheritance Example
+    7min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    188. Constructors in Inheritance
+    11min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    189. Demo Constructors in Inheritance
+    8min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    190. isA and hasA
+    5min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    191. Access Specifiers
+    12min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    192. Demo - Access Specifiers
+    8min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    193. Types of Inheritance
+    9min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    194. Ways of Inheritance
+    6min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    195. Ways of Inheritance Demo
+    6min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    196. Generalization and Specialization
+    10min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    197. Practice Student Exercise #11
+    2min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Start
+    Quiz 9: Quiz for Inheritance
 
 
 
