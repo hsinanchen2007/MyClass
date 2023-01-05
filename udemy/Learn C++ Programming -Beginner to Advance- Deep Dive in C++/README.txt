@@ -976,5 +976,93 @@ Section 14: Inheritance
 
 
 
+Section 15: Base Class Pointer Derived Class Object
+    4 / 4 | 25min4 of 4 lectures completed25min
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    198. Base Class Pointer Derived Class Object
+    10min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    199. Demo#1 -Base Class Pointer Derived Class Object
+    5min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    200. Demo #2- Base Class Pointer Derived Class Object
+    5min
+
+    Resources
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    201. Demo #3 - Base Class Pointer Derived Class Object
+    5min
+
+    Resources
 
 
+
+Section 16: Polymorphism
+    0 / 11 | 55min0 of 11 lectures completed55min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    202. Function Overriding
+    5min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    203. Demo Function Overriding
+    4min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    204. Virtual Functions
+    7min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    205. Demo #1 - Virtual Functions
+    3min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    206. Demo #2 - Virtual Functions
+    3min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    207. Runtime Polymorphism
+    11min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    208. Demo - Polymorphism
+    4min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    209. Abstract Classes
+    9min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    210. Demo - Abstract Class
+    7min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    211. Practice Student Exercise #12
+    2min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Start
+    Quiz 10: Quiz for Polymorphism
