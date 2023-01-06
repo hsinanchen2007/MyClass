@@ -14,7 +14,7 @@ Learn Basic concepts of Programming C++, OOPs,Exception Handling, STL, Features 
 Learn Object-Oriented Programming Design Concept in C++ Perfectly with Examples
 Learn How to Develop an Application (Student Project in C++ )
 Course content
-27 sections • 279 lectures • 30h 27m total length
+27 sections ??? 279 lectures ??? 30h 27m total length
 Preview
 03:02
 Fundamentals
@@ -1066,3 +1066,57 @@ Section 16: Polymorphism
     Lecture incomplete. Progress cannot be changed for this item.
     Start
     Quiz 10: Quiz for Polymorphism
+
+
+
+Section 17: Friend and Static Members / Inner Classes
+    1 / 9 | 45min1 of 9 lectures completed45min
+    Lecture completed. Progress cannot be changed for this item.
+    Play
+    212. Friend Function and Classes
+    6min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    213. Demo - Friend Function and Class
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    214. Static Members
+    9min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    215. Demo - Static Members
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    216. Static Members 2
+    6min
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    217. Demo - Static Member Examples
+    7min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    218. Inner/Nested Class
+    5min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Play
+    219. Demo - Inner Classes
+    3min
+
+    Resources
+    Lecture incomplete. Progress cannot be changed for this item.
+    Start
+    Quiz 11: Quiz for Friend Functions
