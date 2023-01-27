@@ -106,7 +106,9 @@
 			"locale": "cpp",
 			"stop_token": "cpp",
 			"xlocbuf": "cpp",
-			"xlocmes": "cpp"
+			"xlocmes": "cpp",
+			"ranges": "cpp",
+			"span": "cpp"
 		},
 		"printcode.lineNumbers": "off",
 		"print.alternateBrowser": false
