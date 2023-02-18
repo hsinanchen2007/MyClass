@@ -10,41 +10,41 @@ curated list of leetcode problems.
 So below I made a list of leetcode problems that are as close to grokking problems as possible.
 
 Pattern: Sliding Window
-53.   https://leetcode.com/problems/maximum-subarray/ # Close enough
-209.  https://leetcode.com/problems/minimum-size-subarray-sum/
-340.  https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-904.  https://leetcode.com/problems/fruit-into-baskets/
-3.    https://leetcode.com/problems/longest-substring-without-repeating-characters/
-424.  https://leetcode.com/problems/longest-repeating-character-replacement/
-1004. https://leetcode.com/problems/max-consecutive-ones-iii/
-567.  https://leetcode.com/problems/permutation-in-string/
-438.  https://leetcode.com/problems/find-all-anagrams-in-a-string/
-76.   https://leetcode.com/problems/minimum-window-substring/
-30.   https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+53.   M, https://leetcode.com/problems/maximum-subarray/ # Close enough
+209.  M, https://leetcode.com/problems/minimum-size-subarray-sum/
+340.  M, https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+904.  M, https://leetcode.com/problems/fruit-into-baskets/
+3.    M, https://leetcode.com/problems/longest-substring-without-repeating-characters/
+424.  M, https://leetcode.com/problems/longest-repeating-character-replacement/
+1004. M, https://leetcode.com/problems/max-consecutive-ones-iii/
+567.  M, https://leetcode.com/problems/permutation-in-string/
+438.  M, https://leetcode.com/problems/find-all-anagrams-in-a-string/
+76.   H, https://leetcode.com/problems/minimum-window-substring/
+30.   H, https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 
 
 Pattern: Two Pointers
-1.    https://leetcode.com/problems/two-sum/
-26.   https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-977.  https://leetcode.com/problems/squares-of-a-sorted-array/
-15.   https://leetcode.com/problems/3sum/
-16.   https://leetcode.com/problems/3sum-closest/
-259.  https://leetcode.com/problems/3sum-smaller/
-713.  https://leetcode.com/problems/subarray-product-less-than-k/
-75.   https://leetcode.com/problems/sort-colors/
-18.   https://leetcode.com/problems/4sum/
-844.  https://leetcode.com/problems/backspace-string-compare/
-581.  https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+1.    E, https://leetcode.com/problems/two-sum/
+26.   E, https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+977.  E, https://leetcode.com/problems/squares-of-a-sorted-array/
+15.   M, https://leetcode.com/problems/3sum/
+16.   M, https://leetcode.com/problems/3sum-closest/
+259.  M, https://leetcode.com/problems/3sum-smaller/
+713.  M, https://leetcode.com/problems/subarray-product-less-than-k/
+75.   M, https://leetcode.com/problems/sort-colors/
+18.   M, https://leetcode.com/problems/4sum/
+844.  E, https://leetcode.com/problems/backspace-string-compare/
+581.  M, https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 
 
 Pattern: Fast & Slow pointers
-141.  https://leetcode.com/problems/linked-list-cycle/
-142.  https://leetcode.com/problems/linked-list-cycle-ii/
-202.  https://leetcode.com/problems/happy-number/
-876.  https://leetcode.com/problems/middle-of-the-linked-list/
-234.  https://leetcode.com/problems/palindrome-linked-list/
-143.  https://leetcode.com/problems/reorder-list/
-457.  https://leetcode.com/problems/circular-array-loop/
+141.  E, https://leetcode.com/problems/linked-list-cycle/
+142.  M, https://leetcode.com/problems/linked-list-cycle-ii/
+202.  E, https://leetcode.com/problems/happy-number/
+876.  E, https://leetcode.com/problems/middle-of-the-linked-list/
+234.  E, https://leetcode.com/problems/palindrome-linked-list/
+143.  M, https://leetcode.com/problems/reorder-list/
+457.  M, https://leetcode.com/problems/circular-array-loop/
 
 
 Pattern: Merge Intervals
