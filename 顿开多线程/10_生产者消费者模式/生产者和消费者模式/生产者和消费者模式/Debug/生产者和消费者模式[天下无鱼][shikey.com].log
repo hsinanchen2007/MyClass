@@ -1,0 +1,9 @@
+﻿  生产者和消费者模式.cpp
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(121,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::thread::id”
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(110): message : 在编译 类 模板 成员函数“void Factory<int>::ConsumeTask(void)”时
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(145): message : 查看对正在编译的函数 模板 实例化“void Factory<int>::ConsumeTask(void)”的引用
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(141): message : 查看对正在编译的 类 模板 实例化“Factory<int>”的引用
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(94,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::thread::id”
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(81): message : 在编译 类 模板 成员函数“void Factory<int>::ProduceTask(void)”时
+C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\生产者和消费者模式\生产者和消费者模式.cpp(142): message : 查看对正在编译的函数 模板 实例化“void Factory<int>::ProduceTask(void)”的引用
+  生产者和消费者模式.vcxproj -> C:\Users\team\Desktop\10_生产者消费者模式\生产者和消费者模式\Debug\生产者和消费者模式.exe
