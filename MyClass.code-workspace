@@ -111,6 +111,7 @@
 			"span": "cpp"
 		},
 		"printcode.lineNumbers": "off",
-		"print.alternateBrowser": false
+		"print.alternateBrowser": false,
+		"files.autoSave": "afterDelay"
 	}
 }
