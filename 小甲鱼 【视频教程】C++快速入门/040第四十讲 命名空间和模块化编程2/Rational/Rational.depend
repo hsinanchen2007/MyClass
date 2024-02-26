@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1344243116 source:d:\播布客\c++快速入门\第四十讲 命名空间和模块化编程2\rational\rational.cpp
+	"rational.h"
+	<iostream>
+	<stdlib.h>
+
+1344253921 d:\播布客\c++快速入门\第四十讲 命名空间和模块化编程2\rational\rational.h
+	<iostream>
+
+1344242703 source:d:\播布客\c++快速入门\第四十讲 命名空间和模块化编程2\rational\main.cpp
+	"rational.h"
+	<iostream>
+

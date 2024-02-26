@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1344680970 source:d:\播布客\c++快速入门\第四十三讲 链接和作用域2\example\this.cpp
+	"header.h"
+	<iostream>
+
+1344681038 d:\播布客\c++快速入门\第四十三讲 链接和作用域2\example\header.h
+
+1344680984 source:d:\播布客\c++快速入门\第四十三讲 链接和作用域2\example\that.cpp
+	"header.h"
+
