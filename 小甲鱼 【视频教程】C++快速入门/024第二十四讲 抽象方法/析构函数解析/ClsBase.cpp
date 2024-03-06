@@ -9,6 +9,7 @@ public:
 
     ~ClxBase()
     {
+        std::cout << "Output from the destructor of class ClxBase!\n";
     };
 
     virtual void doSomething()
