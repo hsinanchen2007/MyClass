@@ -1,0 +1,14 @@
+﻿  5-3.cpp
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\5-3\5-3.cpp(20,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\5-3\5-3.cpp(20,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\5-3\5-3.cpp(21,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\5-3\5-3.cpp(21,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\5-3\5-3.cpp(22,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\5-3\5-3.cpp(22,12):
+  consider using '%zd' in the format string
+  
+  5-3.vcxproj -> C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-3\x64\Debug\5-3.exe

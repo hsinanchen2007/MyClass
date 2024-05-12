@@ -1,0 +1,66 @@
+﻿  5-2.cpp
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(52,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(52,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(53,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(53,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(54,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(54,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(55,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(55,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(57,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(57,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(58,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(58,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(59,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(59,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(60,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(60,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(62,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(62,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(64,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(64,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(65,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(65,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(68,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(68,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(71,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(71,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(74,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(74,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(75,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(75,12):
+  consider using '%zd' in the format string
+  
+C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(76,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\5-2\5-2.cpp(76,12):
+  consider using '%zd' in the format string
+  
+  5-2.vcxproj -> C:\git\MyClass\狄泰软件学院C++深度解析教程\第5课 - 引用的本质分析\class\code\5-2\x64\Debug\5-2.exe
