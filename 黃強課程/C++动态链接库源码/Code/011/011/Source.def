@@ -1,0 +1,5 @@
+LIBRARY
+
+EXPORTS  
+;表示是变量
+b   DATA

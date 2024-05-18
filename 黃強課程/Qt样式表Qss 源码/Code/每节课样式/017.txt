@@ -1,0 +1,50 @@
+QProgressBar {
+    border: 2px solid red;
+    border-radius: 8px;
+    text-align: center;/*文本位置*/
+    color:brown; /*文字颜色*/
+    background: white; /*背景*/
+    padding:2px;/*内容边距*/  
+    font-family: "Microsoft YaHei";  
+   /*字体尺寸*/
+    font-size: 14pt;
+  
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.8 #ff0000);/*填充渐变背景色*/
+    border-radius: 8px; 
+}
+
+/*禁用*/
+QProgressBar:disabled 
+{
+    color: #616161;
+}
+
+
+#progressBar_2
+{ 
+    text-align: right; 
+    padding:5px;/*内容边距*/ 
+    color:  #01FAFF;
+    border: 2px solid #01FAFF;
+  
+}
+
+#progressBar_2::chunk {
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:0,stop:0 #01FAFF,stop:1  #26B4FF);
+    width: 10px;/*每格宽度*/
+    margin: 0.5px;/*每格间隔*/
+}
+
+
+/*垂直伪状态*/
+QProgressBar:vertical  
+{
+	  border: 2px solid green;
+}
+QProgressBar::chunk:vertical 
+{
+	background-color: green;
+}

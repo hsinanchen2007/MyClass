@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Code\007\bin\Debug\007.exe.config
+C:\Users\Administrator\Desktop\Code\007\bin\Debug\007.exe
+C:\Users\Administrator\Desktop\Code\007\bin\Debug\007.pdb
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\007.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\_007.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\007.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\007.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\007.exe
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\007.pdb
+C:\Users\Administrator\Desktop\Code\007\obj\Debug\_007.Form1.resources

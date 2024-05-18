@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Code\034\bin\Debug\034.exe.config
+C:\Users\Administrator\Desktop\Code\034\bin\Debug\034.exe
+C:\Users\Administrator\Desktop\Code\034\bin\Debug\034.pdb
+C:\Users\Administrator\Desktop\Code\034\obj\Debug\034.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\034\obj\Debug\034.exe
+C:\Users\Administrator\Desktop\Code\034\obj\Debug\034.pdb

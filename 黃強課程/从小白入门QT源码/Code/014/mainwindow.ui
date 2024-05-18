@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>30</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="my.qrc">
+      <normaloff>:/new/icon/imgs/music.png</normaloff>:/new/icon/imgs/music.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>120</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+font: 12pt &quot;华康海报体W12&quot;;
+background-color: rgb(85, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>240</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/new/icon/imgs/bg1.png);
+font: 14pt &quot;迷你简竹节&quot;;
+}
+QPushButton:hover{
+border-image: url(:/new/icon/imgs/bg2.png);
+font: 14pt &quot;迷你简竹节&quot;;
+}
+QPushButton:pressed{	
+border-image: url(:/new/icon/imgs/bg3.png);
+font: 14pt &quot;迷你简竹节&quot;;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>开始游戏</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="my.qrc"/>
+ </resources>
+ <connections/>
+</ui>

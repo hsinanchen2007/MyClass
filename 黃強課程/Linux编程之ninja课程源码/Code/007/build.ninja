@@ -1,0 +1,14 @@
+# 规则
+rule  r1
+  command =   cat   $in > $out
+  
+rule r2
+  command = gcc    $in -o $out
+
+# 构建
+build   config.h: r1   config.in
+
+build  app:  r2  main.c  || config.h
+
+
+

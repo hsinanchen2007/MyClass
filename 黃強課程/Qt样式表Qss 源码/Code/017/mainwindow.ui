@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QProgressBar 
+{
+
+    border: 2px solid red;
+    border-radius: 8px;
+    text-align: center;/*文本位置*/
+    color:brown; /*文字颜色*/
+    background: white; /*背景*/
+    padding:2px;/*内容边距*/  
+    font-family: &quot;Microsoft YaHei&quot;;  
+   /*字体尺寸*/
+    font-size: 14pt;
+  
+}
+
+
+QProgressBar::chunk 
+{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.8 #ff0000);/*填充渐变背景色*/
+    border-radius: 8px;  
+}
+
+
+/*禁用*/
+QProgressBar:disabled 
+{
+    color: #616161;
+}
+
+
+#progressBar_2
+{ 
+    text-align: right; 
+    padding:5px;/*内容边距*/ 
+    color:  #01FAFF;
+    border: 2px solid #01FAFF;
+  
+}
+
+#progressBar_2::chunk 
+{
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:0,stop:0 #01FAFF,stop:1  #26B4FF);
+    width: 10px;/*每格宽度*/
+    margin: 0.5px;/*每格间隔*/
+}
+
+
+
+/*垂直伪状态*/
+QProgressBar:vertical  
+{
+	  border: 2px solid green;
+}
+
+QProgressBar::chunk:vertical 
+{
+	background-color: green;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>310</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>100</y>
+      <width>51</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::TopToBottom</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

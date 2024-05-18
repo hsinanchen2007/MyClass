@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*表头样式*/
+QTableView  QHeaderView::section
+{
+
+ /*背景色*/
+ background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #D8D9DE,stop:1 rgb(100,150,230)); 
+ /*文字颜色*/
+ color:white; 
+ /*边框样式*/
+ border:1px solid red; 
+}
+ 
+QTableView
+{ 
+/*每行交替色*/  
+alternate-background-color:  lightgray;  
+/*网格线颜色*/
+gridline-color:yellow; 
+/*字体大小*/
+font-size:16px;
+/*去除虚线框*/
+outline:none;
+}
+
+
+
+/*左上角按钮*/
+QTableView QTableCornerButton::section {
+    background: gold;
+    border: 2px outset cywn;
+}
+ 
+
+/*选中item*/
+QTableView::item:selected
+{  
+  background:red;
+}
+
+/* 鼠标悬浮item*/
+QTableView::item:hover
+{ 
+ background:blue;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>511</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>160</y>
+      <width>511</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1152</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

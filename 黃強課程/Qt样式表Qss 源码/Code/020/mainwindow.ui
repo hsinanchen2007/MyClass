@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1182</width>
+    <height>740</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*头部样式*/
+QTreeView  QHeaderView::section 
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #505050,
+                                      stop: 0.6 #434343, stop:1 #656565);
+    color: white; 
+    border: 1px solid #6c6c6c;
+}
+ 
+QTreeView 
+{
+    font: normal   bold   14px &quot;Microsoft YaHei&quot;;/*一行字体样式*/
+    color:white; /*字体颜色*/
+    show-decoration-selected: 1; /*选择整行而不是只有文字部分*/
+    /*背景渐变色*/
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #AB00E5, stop: 1 #3d3d3d); 
+
+     /*交替变换颜色*/
+    alternate-background-color: #3d3d3d; 
+
+    /*去除选中的虚线框*/
+    outline: none;
+}
+
+
+/*每一项的背景*/
+QTreeView::item 
+{
+    border: 1px solid red; 
+}
+/*光标移动到每一项*/
+QTreeView::item:hover {
+    background: orange ;   
+}
+/*项被选中*/
+QTreeView::item:selected {
+    background: red ;   
+}
+
+ /*有焦点的时候，项被选中*/
+QTreeView::item:selected:active{
+     color:yellow;
+}
+
+ /*失去焦点的时候，项被选中*/
+QTreeView::item:selected:!active {
+    color: darkgray ;  
+}
+
+
+
+/*分支子控件*/
+QTreeView::branch 
+{
+        background: white;
+}
+
+/*
+
+QTreeView::branch:adjoins-item {
+     background: blue;
+}
+
+QTreeView::branch:!adjoins-item {
+     background: black;
+}
+
+
+QTreeView::branch:has-siblings
+{
+background: blue;
+}
+
+
+QTreeView::branch:has-children
+{
+background: black;
+}
+*/
+
+/*有下一个兄弟节点、紧挨着item的那一格*/ 
+QTreeView::branch:has-siblings:adjoins-item {
+    border-image: url(:/img/branch-more.png) 0;
+}
+/*有下一个兄弟节点、未挨着item的那一格*/ 
+QTreeView::branch:has-siblings:!adjoins-item {
+    border-image: url(:/img/vline.png) 0;
+}
+/*无孩子、无下一个兄弟、挨着item的那一格*/ 
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: url(:/img/branch-end.png) 0;
+}
+
+
+/*折叠状态、有孩子*/
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url(:/img/branch-closed.png);
+}
+/*打开状态、有孩子*/
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+        border-image: none;
+        image: url(:/img/branch-open.png);
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeView" name="treeView">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>541</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>100</y>
+      <width>501</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1182</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

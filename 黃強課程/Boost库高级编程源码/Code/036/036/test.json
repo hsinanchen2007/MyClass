@@ -1,0 +1,11 @@
+﻿{
+	"stu": {
+		"name": "小明",
+		"age": 18 
+	},
+	"score": 8.23,
+	"lesson": [
+		"Math",
+		"English"
+	]
+}

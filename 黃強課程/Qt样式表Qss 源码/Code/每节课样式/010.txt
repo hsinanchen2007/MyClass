@@ -1,0 +1,47 @@
+ #lineEdit
+{
+    /*边框样式*/
+	border-width: 1px; 
+    border-radius: 4px;
+	border-color:  green;
+	border-style: inset;
+	
+    /*上下0   左右8*/
+    padding: 0 8px;
+
+    /*文字颜色*/
+	color: #FFFFFF;
+    /*背景颜色*/
+	background:#000000;
+
+    /*选中背景色*/
+	selection-background-color:#007b50;
+	/*选中的文字颜色*/
+    selection-color: yellow;
+
+     /*只读
+     qproperty-readOnly:true;*/
+}
+
+/*伪状态选择器， 控件只读的状态*/
+#lineEdit:read-only {
+    border-color: rgb(58, 58, 58);
+    background: gray;
+}
+
+/*设置字体颜色大小*/
+QLineEdit[echoMode="2"]
+{  
+	color: rgb(255, 0, 0);  
+    font-size:20pt; 
+}
+
+/*设置密码字符*/
+QLineEdit
+{   
+    lineedit-password-character:10084;
+    lineedit-password-mask-delay: 3000 ;  
+}
+
+
+ 

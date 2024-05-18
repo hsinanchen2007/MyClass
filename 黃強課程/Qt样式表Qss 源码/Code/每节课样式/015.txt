@@ -1,0 +1,87 @@
+QSpinBox
+{
+  /*字体颜色*/    
+    color:red; 
+    background:white; 
+    /*字体*/
+    font-family: "Microsoft YaHei";  
+   /*字体尺寸*/
+    font-size: 20pt;
+
+    border: 1px  solid   black;    /*一行设置边框*/ 
+    border-radius: 5px  ;  /*圆角半径*/ 
+    padding-left:8px; /*文字距离左边的边距*/
+
+    selection-background-color:gold;/*选中背景色*/
+    selection-color: white;/*选中文字色*/
+
+}
+
+/*朝上的按钮*/
+QSpinBox::up-button
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right; /* position at the top right corner */
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    width: 20px; 
+    height:20px;
+    border-left: 1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    border-top-right-radius:5px; /*和外框半价一致*/
+    margin-right:6px; /*距离右边距离*/
+ 
+}
+
+/*朝下的按钮*/
+QSpinBox::down-button
+{
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right; 
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    width: 20px; 
+    height:20px; 
+    border-left: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    border-bottom-right-radius:6px; /*和外框半价一致*/
+    margin-right:6px;/*距离右边距离*/
+}
+
+
+/*鼠标放在按钮上面*/
+QSpinBox::up-button:hover
+{
+    background:  green;
+}
+
+/*按钮按下*/
+QSpinBox::up-button:pressed  
+{
+   background:  yellow;
+}
+
+/*向上的箭头*/
+QSpinBox::up-arrow
+{
+    image:url(:/img/up_arrow.png); /*图片*/
+    width: 19px;/*宽*/
+    height: 19px;/*高*/
+}
+  
+/*向下的箭头*/
+QSpinBox::down-arrow
+{
+    image:url(:/img/down_arrow.png);
+    width: 9px;
+    height: 9px;
+}
+
+
+/*被禁用向上箭头的状态*/
+QSpinBox::up-button:disabled ,QSpinBox::down-button:disabled
+{ 
+	background: gray;
+	border: 0px solid #dddddd;/*边框*/
+}
+ 
+
+ 

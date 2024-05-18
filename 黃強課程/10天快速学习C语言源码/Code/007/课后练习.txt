@@ -1,0 +1,20 @@
+﻿/*
+在控制台打印出以下变量的值
+short  a = 100
+long   b= -66
+double c = 1.234
+
+ */
+#include <stdio.h> 
+
+void   main()
+{ 
+	    	short  a = 100;
+		long   b = -66;
+		double c = 1.234;
+     
+
+		printf("short 类型打印 %d\n", a);
+		printf("long 类型打印 %d\n", b);
+		printf("double 类型打印 %f\n", c);
+}

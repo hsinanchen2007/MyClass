@@ -1,0 +1,21 @@
+#label
+{
+    border: 1px solid  gray; /*边框*/
+
+    border-radius:8px; /*边框圆角半径*/
+
+    /*padding-left:50px;/*距离左侧间距*/
+    qproperty-alignment:AlignCenter;/*居中*/
+
+   
+    font-family:"微软雅黑";
+	font-weight:bold;
+	font-size:16pt;
+
+	color: white; /*文字颜色*/
+
+	background:  url(:/img/bk.png); /*控件背景图片*/ 
+
+    text-decoration:underline;/*文本下划线*/ 
+}
+ 

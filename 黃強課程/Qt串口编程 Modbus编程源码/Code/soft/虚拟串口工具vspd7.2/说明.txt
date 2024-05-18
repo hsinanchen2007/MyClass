@@ -1,0 +1,3 @@
+1、下载解压vspd压缩包，压缩包中有两个程序，分别为：vspd.exe，vspdctl.dll，其中vspd.exe是安装程序，而vspdctl.dll就是破解补丁。
+2、先运行vspd虚拟串口安装程序开始安装，安装之后，不要立刻运行它。
+3、将vspdctl.dll文件放到C:\Program Files\Eltima Software\Virtual Serial Port Driver 7.2目录下面，覆盖原来的文件即可破解。

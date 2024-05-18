@@ -1,0 +1,21 @@
+﻿<Application x:Class="_019.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_019"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            
+            <SolidColorBrush x:Key="MyBrush" Color="Yellow"></SolidColorBrush>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary  Source="Dictionary1.xaml"  />
+                <ResourceDictionary  Source="Dictionary2.xaml"  />
+            </ResourceDictionary.MergedDictionaries>
+ 
+
+        </ResourceDictionary>
+         
+    </Application.Resources>
+</Application>

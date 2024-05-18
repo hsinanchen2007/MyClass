@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\Code\037\bin\Debug\037.exe.config
+C:\Users\Administrator\Desktop\Code\037\bin\Debug\037.exe
+C:\Users\Administrator\Desktop\Code\037\bin\Debug\037.pdb
+C:\Users\Administrator\Desktop\Code\037\obj\Debug\037.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\037\obj\Debug\037.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\037\obj\Debug\037.exe
+C:\Users\Administrator\Desktop\Code\037\obj\Debug\037.pdb

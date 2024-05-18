@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Code\060\bin\Debug\060.exe.config
+C:\Users\Administrator\Desktop\Code\060\bin\Debug\060.exe
+C:\Users\Administrator\Desktop\Code\060\bin\Debug\060.pdb
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\_060.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\060.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\060.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\060.exe
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\060.pdb
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\060.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\060\obj\Debug\_060.Form1.resources

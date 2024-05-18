@@ -1,0 +1,7 @@
+#规则
+rule  r1
+  command = tar xf $in 
+  restat = 1
+
+#构建 
+build   a.txt:   r1   a.tar

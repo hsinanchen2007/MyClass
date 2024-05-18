@@ -1,0 +1,16 @@
+﻿<Window x:Class="_049.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_049"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>        <DataTemplate  x:Key="myDT">            <TextBlock Text="{Binding  Id}"  FontSize="20"   Width="30"  Height="30"                       TextAlignment="Center"   Background="Yellow" >                <TextBlock.Clip>                    <EllipseGeometry  Center="15,15" RadiusX="15"  RadiusY="15" />                </TextBlock.Clip>            </TextBlock>        </DataTemplate>    </Window.Resources>
+    <Grid>
+        <DataGrid x:Name="dataGrid"    AutoGenerateColumns="False"  HorizontalAlignment="Left" Height="295" Margin="190,0,0,0" VerticalAlignment="Center" Width="465" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <DataGrid.Columns>                <DataGridTemplateColumn Header="学号"   Width="100"    CellTemplate="{StaticResource myDT}"  />                <DataGridTextColumn Header="姓名"   Width="Auto"    Binding="{Binding Name}" />                <DataGridTextColumn Header="分数"   Width="*"    Binding="{Binding Score}"  />            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

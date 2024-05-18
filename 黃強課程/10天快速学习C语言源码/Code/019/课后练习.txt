@@ -1,0 +1,15 @@
+﻿/*
+实现一个求两个float数相除的函数，并调用
+ */
+#include <stdio.h> 
+
+float  Div(float a, float b)
+{
+    return a / b   ;
+}
+
+void   main()
+{ 
+    float c = Div(0.1, 0.5);
+    printf("0.1 除以 0.5 等于= %f  \n", c);
+}

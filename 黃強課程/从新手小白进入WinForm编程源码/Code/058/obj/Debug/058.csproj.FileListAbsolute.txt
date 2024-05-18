@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Code\058\bin\Debug\058.exe.config
+C:\Users\Administrator\Desktop\Code\058\bin\Debug\058.exe
+C:\Users\Administrator\Desktop\Code\058\bin\Debug\058.pdb
+C:\Users\Administrator\Desktop\Code\058\obj\Debug\_058.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\058\obj\Debug\058.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\058\obj\Debug\058.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\058\obj\Debug\058.exe
+C:\Users\Administrator\Desktop\Code\058\obj\Debug\058.pdb
+C:\Users\Administrator\Desktop\Code\058\obj\Debug\_058.Form1.resources

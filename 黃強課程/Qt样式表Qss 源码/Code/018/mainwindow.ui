@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*垂直滚动条*/
+ QScrollBar:vertical
+ {
+     border: 2px solid blue; 
+     background: black;
+     width: 15px;
+     margin: 30px 0 30px 0;/*预留两个箭头的位置*/
+ }
+
+/*滑块*/
+ QScrollBar::handle:vertical { 
+     background: red;
+     min-height: 40px;
+ }
+
+
+
+
+/*鼠标停留在滑块*/
+QScrollBar::handle:hover:vertical
+{
+background:yellow;
+}
+/*鼠标按下滑块*/
+ QScrollBar::handle:pressed:vertical
+{
+background:blue;
+}
+
+
+
+/*上移按钮*/
+ QScrollBar::sub-line:vertical {
+     border: 1px solid gray;
+     border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     background: cyan;
+
+     /*子控件参考位置*/
+     subcontrol-origin: margin;
+     subcontrol-position: top; 
+     height: 30px; /*正好是前面margin预留的高度*/
+
+ }
+ 
+ /*下移按钮*/
+ QScrollBar::add-line:vertical {
+     border: 1px solid grey;
+     border-bottom-left-radius:10px;
+     border-bottom-right-radius:10px;
+     background: gold;
+
+      /*子控件参考位置*/
+     subcontrol-origin: margin;
+     subcontrol-position: bottom;
+      height: 30px;
+ }
+
+
+/*向上的箭头*/
+ QScrollBar::up-arrow:vertical 
+ {  /*控件大小*/
+     width: 14px;
+     height: 14px;
+     border-image: url(:/img/up_arrow.png); /*图片*/ 
+ }
+
+/*向下的箭头*/
+  QScrollBar::down-arrow:vertical 
+  {  
+     width: 14px;
+     height: 14px;
+     border-image: url(:/img/down_arrow.png); /*图片*/ 
+ }
+
+
+ /*滑块已经划过的区域*/
+QScrollBar::sub-page:vertical 
+{
+      background: gray;
+} 
+   
+ /*滑块未划过的区域*/
+ QScrollBar::add-page:vertical
+ {
+  background: green;
+ }
+
+
+/***********************/
+
+/*水平*/
+QScrollBar:horizontal {
+    border: 2px solid red;
+    background: #32CC99;
+    height: 40px; /*增加，减少 按钮的宽度*/
+   
+    /*中间阴影距离两边的距离 、与height一致*/
+    padding-left:40px; /*上预留位置（放置左箭头）*/
+    padding-right:40px; /*下预留位置（放置右箭头）  */
+}
+QScrollBar::handle:horizontal {
+    background: yellow;
+    min-width: 40px;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollBar" name="horizontalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>250</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="verticalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>70</y>
+      <width>51</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

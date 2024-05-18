@@ -1,0 +1,25 @@
+﻿<Window x:Class="_048.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_048"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="285" Margin="190,65,0,0" VerticalAlignment="Top" Width="450" d:ItemsSource="{d:SampleData ItemCount=5}" 
+                  AlternatingRowBackground="#FFE91212" 
+                  SelectionMode="Extended" 
+                  CanUserAddRows="True"
+                  AutoGenerateColumns="False" SelectionChanged="dataGrid_SelectionChanged">
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="编号"  Width="100" Binding="{Binding Id}"  />
+                <DataGridTextColumn Header="姓名"  Width="200" Binding="{Binding Name}"  />
+                <DataGridTextColumn Header="成绩"  Width="Auto"  Binding="{Binding Score}"  />                
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+</Window>

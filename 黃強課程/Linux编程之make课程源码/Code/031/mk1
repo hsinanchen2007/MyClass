@@ -1,0 +1,10 @@
+#目标
+main:  main.o a.o b.o c.o 
+
+a.o: a.c
+	rm  XXX
+	gcc -c   a.c
+
+#清理
+clean: 
+	$(RM)   main  *.o

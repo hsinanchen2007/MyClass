@@ -1,0 +1,27 @@
+﻿/*
+编写代码表示时间的结构体，
+可以精确的表示年、月、日、小时、分、秒，
+提示用户输入年、月、日、小时、分、秒的值，
+然后完整的显示出来。
+
+ */
+#include <stdio.h> 
+ 
+struct DateTime
+{
+	short year; //年
+	short month;//月
+	short day;//日
+	short hour;//时
+	short minute;//分
+	short second;//秒
+};
+
+
+void   main()
+{
+	struct DateTime dt = { 2021,1,1,12,30,59 };
+
+	printf("%d年%d月%d日  %d:%d:%d\n", dt.year, dt.month,
+		dt.day, dt.hour, dt.minute, dt.second);
+}

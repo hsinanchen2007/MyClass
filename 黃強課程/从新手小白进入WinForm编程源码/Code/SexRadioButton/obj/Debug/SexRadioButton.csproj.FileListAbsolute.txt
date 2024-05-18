@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\Code\SexRadioButton\bin\Debug\SexRadioButton.dll
+C:\Users\Administrator\Desktop\Code\SexRadioButton\bin\Debug\SexRadioButton.pdb
+C:\Users\Administrator\Desktop\Code\SexRadioButton\obj\Debug\SexRadioButton.SexRadioButton.resources
+C:\Users\Administrator\Desktop\Code\SexRadioButton\obj\Debug\SexRadioButton.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\SexRadioButton\obj\Debug\SexRadioButton.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\SexRadioButton\obj\Debug\SexRadioButton.dll
+C:\Users\Administrator\Desktop\Code\SexRadioButton\obj\Debug\SexRadioButton.pdb

@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Code\024\bin\Debug\024.exe.config
+C:\Users\Administrator\Desktop\Code\024\bin\Debug\024.exe
+C:\Users\Administrator\Desktop\Code\024\bin\Debug\024.pdb
+C:\Users\Administrator\Desktop\Code\024\obj\Debug\024.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\024\obj\Debug\_024.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\024\obj\Debug\024.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\024\obj\Debug\024.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\024\obj\Debug\024.exe
+C:\Users\Administrator\Desktop\Code\024\obj\Debug\024.pdb

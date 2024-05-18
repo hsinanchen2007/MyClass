@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1052</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#frame
+{           /*上右下左 全为30  ，默认是拉伸*/
+            border-image:url(:/img/test.png) 30;  /*30划分于图片的九宫格*/
+
+            /*四个边框宽度相对于 窗口的九宫格*/
+            border-top: 30px transparent;
+            border-bottom: 30px transparent;
+            border-right: 30px transparent;
+            border-left:30px transparent;
+     
+         
+}
+
+#frame_2
+{           /*上右下左 分别为 10 30 10 30 的内容来*/
+            border-image:url(:/img/test.png) 15 30 15 30 ; 
+           /*四个边框宽度*/
+            border-top: 30px transparent;
+            border-bottom: 30px transparent;
+            border-right: 30px transparent;
+            border-left:30px transparent;
+}
+
+#frame_3
+{           /*33%的比例、  上下 是重复 、左右 是 拉伸*/
+            border-image:url(:/img/test.png) 33%  repeat  stretch ; 
+           /*四个边框宽度*/
+            border-top: 30px transparent;
+            border-bottom: 30px transparent;
+            border-right: 30px transparent;
+            border-left:30px transparent;
+}
+
+
+/******************************************************************/
+
+
+#widget
+{ /*不拉伸*/
+ background-image: url(:/img/gold.png);
+ background-repeat: no-repeat;/*不平铺*/
+}
+
+
+#widget_2
+{           /*拉伸导致图片变形*/
+            border-image:url(:/img/gold.png); 
+}
+
+
+
+#widget_3
+{          
+            /*保证图片四个边框不被拉伸*/
+            border-image:url(:/img/gold.png) 36 36 36 36  repeat  repeat ;
+            border-top: 36px transparent;
+            border-bottom: 36px transparent;
+            border-right: 36px transparent;
+            border-left: 36px transparent;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>341</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>341</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>341</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>30</y>
+      <width>211</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>280</y>
+      <width>451</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>480</y>
+      <width>441</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1052</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

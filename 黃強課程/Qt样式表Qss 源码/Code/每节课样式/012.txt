@@ -1,0 +1,86 @@
+QRadioButton {  
+    color:  red;/*文字颜色*/
+}
+
+ /*左侧指示子控件*/
+QRadioButton::indicator {
+	height: 16px; 
+	width: 16px;
+	border-radius:8px;
+	border-width: 1px;
+    border-style:solid;
+	border-color: blue;
+	
+}
+
+/*左侧指示子控件选中*/
+QRadioButton::indicator:checked { 
+    /*渐变背景*/
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(90, 113, 0, 255), stop:1 rgba(0, 0, 252, 255));
+}
+
+/*左侧指示子控件未选中*/
+QRadioButton::indicator:!checked {  
+	background-color: transparent; /*透明背景*/
+}
+
+
+/************************************************************/
+
+QCheckBox
+{
+    spacing: 15px;/*左右子控件的间距*/
+    color: green;
+}
+ 
+ /*左侧指示子控件*/
+QCheckBox::indicator 
+{
+    width: 20px;
+    height:20px;
+}
+
+/*选择框未选中*/
+
+QCheckBox::indicator:unchecked 
+{
+       image: url(:/img/u1.png);
+}
+
+QCheckBox::indicator:unchecked:hover {
+     image: url(:/img/u2.png);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    image: url(:/img/u3.png);
+}
+
+
+/*选择框选中*/
+
+QCheckBox::indicator:checked {
+    image: url(:/img/c1.png);
+}
+
+QCheckBox::indicator:checked:hover {
+     image: url(:/img/c2.png);
+}
+
+QCheckBox::indicator:checked:pressed {
+     image: url(:/img/c3.png);
+}
+
+
+
+/*选择框部分选中, 需要三态的复选框 ，tristate设置为true */
+QCheckBox::indicator:indeterminate {
+    image: url(:/img/i1.png);
+}
+
+QCheckBox::indicator:indeterminate:hover {
+      image: url(:/img/i2.png);
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+    image: url(:/img/i3.png);
+}

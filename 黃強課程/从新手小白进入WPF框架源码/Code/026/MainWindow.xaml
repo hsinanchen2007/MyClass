@@ -1,0 +1,19 @@
+﻿<Window x:Class="_026.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_026"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ProgressBar  
+            x:Name="progressBar"
+            Minimum="1" 
+            Maximum="101"
+            Value="50"
+            HorizontalAlignment="Left" Height="57" Margin="220,123,0,0" VerticalAlignment="Top"  Width="390" ValueChanged="ProgressBar_ValueChanged" />
+        <Button x:Name="button" Content="增加进度" HorizontalAlignment="Left" Margin="390,285,0,0" VerticalAlignment="Top" Height="45" Width="100" Click="button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QRadioButton" name="btnMusic">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 127);
+font: 20pt &quot;汉仪雅酷黑W&quot;;
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>音乐</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="btnCode">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>90</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>编程</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="male">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>男性</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="female">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>200</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>女性</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>689</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

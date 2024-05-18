@@ -1,0 +1,4 @@
+﻿  038Dlg.cpp
+c:\users\administrator\desktop\新的代码\038\038\038\038dlg.cpp(107): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  038.vcxproj -> C:\Users\Administrator\Desktop\新的代码\038\038\Debug\038.exe
+  038.vcxproj -> C:\Users\Administrator\Desktop\新的代码\038\038\Debug\038.pdb (Full PDB)

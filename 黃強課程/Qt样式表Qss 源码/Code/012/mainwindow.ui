@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QRadioButton 
+{  
+    color:  red;/*文字颜色*/
+    font-size: 24px;
+}
+
+ /*左侧指示子控件*/
+QRadioButton::indicator 
+{
+	height: 32px; 
+	width: 32px;
+	border-radius:16px;
+	border-width: 1px;
+    border-style: solid;
+	border-color: blue;
+	
+}
+
+
+/*左侧指示子控件选中*/
+QRadioButton::indicator:checked { 
+    /*渐变背景*/
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(90, 113, 0, 255), stop:1 rgba(0, 0, 252, 255));
+}
+
+/*左侧指示子控件未选中*/
+QRadioButton::indicator:unchecked {  
+	background-color: transparent; /*透明背景*/
+}
+
+
+
+
+/************************************************************/
+
+QCheckBox
+{
+    spacing: 15px;/*左右子控件的间距*/
+    color: green;
+    font-size: 24px;
+}
+
+
+ /*左侧指示子控件*/
+QCheckBox::indicator 
+{
+    width: 30px;
+    height:30px;
+}
+
+/*选择框未选中*/
+
+QCheckBox::indicator:unchecked 
+{
+       border-image: url(:/img/u1.png);
+}
+
+QCheckBox::indicator:unchecked:hover {
+     border-image: url(:/img/u2.png);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    border-image: url(:/img/u3.png);
+}
+
+
+
+
+
+/*选择框选中*/
+
+QCheckBox::indicator:checked {
+    border-image: url(:/img/c1.png);
+}
+
+QCheckBox::indicator:checked:hover {
+     border-image: url(:/img/c2.png);
+}
+
+QCheckBox::indicator:checked:pressed {
+     border-image: url(:/img/c3.png);
+}
+
+
+
+/*选择框部分选中, 需要三态的复选框 ，tristate设置为true */
+QCheckBox::indicator:indeterminate {
+     border-image: url(:/img/i1.png);
+}
+
+QCheckBox::indicator:indeterminate:hover {
+       border-image: url(:/img/i2.png);
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+     border-image: url(:/img/i3.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>271</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+    <property name="tristate">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>130</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

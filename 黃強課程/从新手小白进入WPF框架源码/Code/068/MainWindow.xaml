@@ -1,0 +1,19 @@
+﻿<Window x:Class="_068.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_068"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Frame x:Name="frame"   Background="LightGray"   HorizontalAlignment="Center" Height="275" Margin="0,40,0,0" VerticalAlignment="Top" Width="530" 
+               NavigationUIVisibility="Hidden"/>
+        <Button x:Name="button_Back" Content="返回" HorizontalAlignment="Left" Height="30" Margin="135,350,0,0" VerticalAlignment="Top" Width="105" Click="button_Back_Click"/>
+        <Button x:Name="button_Forward" Content="向前" HorizontalAlignment="Left" Height="30" Margin="570,350,0,0" VerticalAlignment="Top" Width="105" Click="button_Forward_Click"/>
+        <Button x:Name="button_1" Content="1" HorizontalAlignment="Left" Height="30" Margin="295,350,0,0" VerticalAlignment="Top" Width="45" Click="button_1_Click"/>
+        <Button x:Name="button_2" Content="2" HorizontalAlignment="Center" Height="30" Margin="0,350,0,0" VerticalAlignment="Top" Width="44" Click="button_2_Click"/>
+        <Button x:Name="button_3" Content="3" HorizontalAlignment="Left" Height="30" Margin="480,350,0,0" VerticalAlignment="Top" Width="45" Click="button_3_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Code\018\bin\Debug\018.exe.config
+C:\Users\Administrator\Desktop\Code\018\bin\Debug\018.exe
+C:\Users\Administrator\Desktop\Code\018\bin\Debug\018.pdb
+C:\Users\Administrator\Desktop\Code\018\obj\Debug\018.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\018\obj\Debug\018.exe
+C:\Users\Administrator\Desktop\Code\018\obj\Debug\018.pdb

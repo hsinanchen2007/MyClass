@@ -1,0 +1,14 @@
+/*
+请编写C语言代码, 使用浮点类型除法，
+检验5/10的结果是否为0.5 
+ */
+#include <stdio.h> 
+
+void   main()
+{ 
+	 float a = 5;
+	 float b = 10;
+
+	 printf("浮点数  5 /  10 = %f\n", a/b);
+		 
+}

@@ -1,0 +1,21 @@
+#label
+{
+    /*字体颜色*/    
+    color:red;
+    /*字体*/
+    font-family: "Microsoft YaHei"; 
+	/*字体加粗*/
+	font-weight:bold;
+	/*字体尺寸*/
+	font-size: 24pt;
+	/*字体风格*/
+	font-style: italic;
+
+}
+
+#label_2
+{
+     /*也可以直接写成一行*/
+     font: italic   bold   36px "华文彩云";
+
+}

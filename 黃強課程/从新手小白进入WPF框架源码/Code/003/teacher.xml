@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Course> 
+         <Name>WPF框架课</Name>
+         <Language>C#</Language> 
+         <Teacher id="001"    name="黄强老师" age="18" /> 
+</Course>

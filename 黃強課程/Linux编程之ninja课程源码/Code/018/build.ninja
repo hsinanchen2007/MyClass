@@ -1,0 +1,16 @@
+#规则
+rule  r1
+  command = gcc  -c  $in 
+
+rule  r2
+  command = gcc     @my.rsp  -o  $out   
+  rspfile = my.rsp
+  rspfile_content = $in
+
+#构建 
+build    a.o :r1  a.c
+build    b.o :r1  b.c
+build    c.o :r1  c.c
+build    main.o :r1  main.c
+
+build    app :r2   a.o  b.o c.o  main.o

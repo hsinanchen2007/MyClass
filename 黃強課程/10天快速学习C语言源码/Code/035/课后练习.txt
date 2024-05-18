@@ -1,0 +1,109 @@
+﻿/*
+编写一个学生管理系统，可以管理100个学生的信息！
+ */
+#include <stdio.h> 
+ 
+struct  Student
+{
+	int id;
+	char name[20];
+	int age;
+};//学生结构体类型
+
+//储存学生的信息
+struct  Student stus[100] = { 0 };//全部初始化为0
+int N = 0;//已经录入的学生个数
+
+void  New();//新增学生
+void  Del();//删除学生
+void  Show();//显示学生
+
+void   main()
+{
+	printf("欢迎来到学生信息管理系统！\n");
+
+
+	while (1)
+	{
+		printf("      菜单\n");
+		printf("---------------\n");
+		printf("新增学生  A \n");
+		printf("删除学生  D \n");
+		printf("显示学生  S \n");
+		printf("退出  Q \n");
+		printf("----------------\n");
+		printf("请输入操作：\n");
+
+		char op;
+		do 
+	    { 
+		 scanf("%c", &op); //防止不等待
+		} while (op == '\n');
+ 
+		if (op == 'A' || op == 'a')
+		{
+			New();
+			printf("\n\n");
+		}
+		else if (op == 'D' || op == 'd')
+		{
+			Del();
+			printf("\n\n");
+		}
+		else if (op == 'S' || op == 's')
+		{
+			Show();
+			printf("\n\n");
+		}
+		else if( op == 'Q' || op =='q')
+		{
+			break;
+		}
+	}
+}
+
+void  New()
+{
+	printf("请输入学生学号:\n"); 
+	scanf("%d", &stus[N].id);
+	printf("请输入学生姓名:\n"); 
+	scanf("%s", stus[N].name);
+	printf("请输入学生年龄:\n"); 
+	scanf("%d", &stus[N].age);
+	 
+	++N;//学生人数+1
+
+	printf("新增学生成功！\n");
+}
+void  Del()
+{
+	if( N>0)
+	{
+		--N; //人数减1
+
+		stus[N].id = 0;
+		strcpy(stus[N].name ,"");
+		stus[N].age = 0;
+		printf("删除最末尾学生成功！\n");
+	}
+	else 
+	{
+		printf("没有学生可以删除！\n");
+	}
+}
+void  Show()
+{
+	if (N == 0)
+	{ 
+			printf("没有学生可以显示！\n"); 
+	}
+	else 
+	{
+		for (int i = 0; i < N; ++i)
+		{
+			struct Student stu = stus[i];
+			printf("学号:%d   姓名:%s   年龄:%d\n", stu.id, stu.name, stu.age);
+		}
+	}
+		
+}

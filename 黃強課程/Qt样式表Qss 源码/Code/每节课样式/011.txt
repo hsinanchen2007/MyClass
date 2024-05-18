@@ -1,0 +1,72 @@
+QPushButton
+{ 
+	padding:0px 4px;/*上下padding为0px 左右为4px    4个值为上右下左*/ 
+	border: 1px solid #aaaaaa;/*边框*/
+    border-radius:8px;/*圆角边框*/
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:0.8 #eeeeee);/*渐变背景色*/
+	outline:none;/*表示焦点时无虚线框*/
+    text-align: center;/*文字对齐方式*/
+}
+
+
+
+/*鼠标悬停在按钮上，注意hover伪状态设置一定要在pressed伪状态之前！！！！！！！！！！*/
+QPushButton:hover
+{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ee0000, stop:0.8 #ffffff);/*渐变背景色*/
+
+    border-width:3px;/*边框宽度*/
+	border-style:solid;/*边框类型*/
+
+	/*四条边框渐变色*/
+	border-color:qlineargradient(x1:0, y1:1, x2:0, y2:0, stop:0 #64bff0, stop:1 #bae3f7)/*上边框渐变色*/
+	  qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #64bff0, stop:1 #bae3f7)/*右边框渐变色*/
+	  qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #64bff0, stop:1 #bae3f7)/*下边框渐变色*/
+	  qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #64bff0, stop:1 #bae3f7);/*左边框渐变色*/
+}
+
+
+/*按钮选中，需要checkable设置为true才生效 */
+QPushButton:checked
+{
+    font-size:24px;
+	font-style:italic ;
+    font-weight:bold ;
+}  
+
+/*按钮按下时*/
+QPushButton:pressed
+{
+	background: yellow;
+} 
+
+/*按钮被禁用*/
+QPushButton:disabled
+{
+	background: gray;
+}
+
+
+
+ /* ----------按钮背景图片--------*/
+#pushButton_3 
+{
+    color: white;/*颜色*/
+
+	border-image:  url(:/img/btn.png);/*自动拉伸背景图*/
+    /*background:  url(:/img/btn.png)  no-repeat  center;/*不会伸背景图*/
+}
+
+#pushButton_3:hover
+{
+	 border-image:  url(:/img/btn2.png); 
+     /*background:  url(:/img/btn2.png)  no-repeat  center; */
+}
+
+
+#pushButton_3:pressed
+{
+    
+	border-image: url(:/img/btn3.png);
+    /*background:  url(:/img/btn3.png)  no-repeat  center; */
+}

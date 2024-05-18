@@ -1,0 +1,9 @@
+v1 = 211
+v2 = 222
+
+ # 规则
+rule  r2
+  command =  echo   r2   v1=$v1      v2=$v2  
+   
+# 构建 
+build   a2   :r2

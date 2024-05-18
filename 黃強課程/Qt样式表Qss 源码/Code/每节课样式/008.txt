@@ -1,0 +1,19 @@
+QLabel
+{
+  border:1px solid  black; /*边框*/
+}
+
+
+
+#label_2 
+{   
+      /*属性*/
+        qproperty-minimumSize: 200px 100px;
+        qproperty-maximumSize: 200px 100px;
+ 
+        qproperty-text:"样式效果";
+        qproperty-alignment:AlignCenter;
+
+        qproperty-pixmap: url(:/img/plane.png); 
+        qproperty-scaledContents: true;  
+}

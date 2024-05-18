@@ -1,0 +1,137 @@
+QDateTimeEdit
+{
+  /*字体颜色*/    
+    color:red; 
+    background:white; 
+    /*字体*/
+    font-family: "Microsoft YaHei";  
+   /*字体尺寸*/
+    font-size: 20pt;
+
+    border: 1px  solid   black;    /*一行设置边框*/ 
+    border-radius: 5px  ;  /*圆角半径*/ 
+    padding-left:8px; /*文字距离左边的边距*/
+
+    selection-background-color:gold;/*选中背景色*/
+    selection-color: white;/*选中文字色*/
+
+}
+
+/*朝上的按钮*/
+QDateTimeEdit::up-button 
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right; /* position at the top right corner */
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    width: 20px; 
+    height:20px;
+    border-left: 1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    border-top-right-radius:5px; /*和外框半价一致*/
+    margin-right:6px; /*距离右边距离*/
+ 
+}
+
+/*朝下的按钮*/
+QDateTimeEdit::down-button 
+{
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right; 
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    width: 20px; 
+    height:20px; 
+    border-left: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    border-bottom-right-radius:6px; /*和外框半价一致*/
+    margin-right:6px;/*距离右边距离*/
+}
+
+
+/*鼠标放在按钮上面*/
+QDateTimeEdit::up-button:hover 
+{
+    background:  green;
+}
+
+/*按钮按下*/
+QDateTimeEdit::up-button:pressed 
+{
+   background:  yellow;
+}
+
+/*向上的箭头*/
+QDateTimeEdit::up-arrow 
+{
+    image:url(:/img/up_arrow.png); /*图片*/
+    width: 19px;/*宽*/
+    height: 19px;/*高*/
+}
+  
+/*向下的箭头*/
+QDateTimeEdit::down-arrow 
+{
+    image:url(:/img/down_arrow.png);
+    width: 9px;
+    height: 9px;
+}
+
+/*带日历的模式、右侧下拉按钮的容器*/
+QDateTimeEdit[calendarPopup=true]::drop-down 
+{
+  width:40px;/*设置宽度*/
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  border: 0px solid #000000;/*边框*/
+}
+
+
+/*带日历的模式，下拉箭头*/  
+QDateTimeEdit[calendarPopup=true]::down-arrow { 
+    width: 40px;
+    height: 40px;
+    image:url(:/img/calendar.png);
+}
+  
+
+/*日历的修改*/
+
+
+/*按钮的菜单指示*/
+QCalendarWidget QToolButton::menu-indicator {
+    image: None;
+}
+ 
+
+/*顶部导航条*/
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+
+    font-family: "Microsoft YaHei";   
+    font-size:16pt; 
+    border: solid #e7e7e7;
+    border-width: 1px 1px 0;
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #def0fe, stop:1 #c0def6);
+
+}
+
+/*QCalendarWidget上左箭头图片*/
+QCalendarWidget QToolButton#qt_calendar_prevmonth { 
+    width: 40px;
+    qproperty-icon: url(:/img/left.png);/*箭头图像*/
+   /* border-image: url(:/img/left.png); 也可以设置背景图 */
+}
+
+/*QCalendarWidget上右箭头图片*/
+QCalendarWidget QToolButton#qt_calendar_nextmonth { 
+    width: 40px;
+    qproperty-icon: url(:/img/right.png);/*箭头图像*/
+}
+
+ 
+/*日历视图的效果*/
+QCalendarWidget  QAbstractItemView {
+    color: black;
+    selection-color: white;
+    selection-background-color: rgb(255, 174, 0);
+    font: 15px;
+}
+ 

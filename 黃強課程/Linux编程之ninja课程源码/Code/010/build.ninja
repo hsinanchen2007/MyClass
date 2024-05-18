@@ -1,0 +1,15 @@
+#变量
+a =   app
+b =   ${a}tool
+ 
+#规则
+rule  r1
+               command =  echo   rule1   $out
+rule  r2
+               command =  echo    rule2  $b 
+
+ #构建 
+build  bin/$a :r1     
+build  $b :r2  
+ #默认
+default   bin/app   $b  

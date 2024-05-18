@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Code\050\bin\Debug\050.exe.config
+C:\Users\Administrator\Desktop\Code\050\bin\Debug\050.exe
+C:\Users\Administrator\Desktop\Code\050\bin\Debug\050.pdb
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\_050.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\050.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\050.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\050.exe
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\050.pdb
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\050.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\050\obj\Debug\_050.Form1.resources

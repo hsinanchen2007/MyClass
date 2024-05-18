@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Code\CircleButton\bin\Debug\CircleButton.dll
+C:\Users\Administrator\Desktop\Code\CircleButton\bin\Debug\CircleButton.pdb
+C:\Users\Administrator\Desktop\Code\CircleButton\obj\Debug\CircleButton.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\CircleButton\obj\Debug\CircleButton.dll
+C:\Users\Administrator\Desktop\Code\CircleButton\obj\Debug\CircleButton.pdb

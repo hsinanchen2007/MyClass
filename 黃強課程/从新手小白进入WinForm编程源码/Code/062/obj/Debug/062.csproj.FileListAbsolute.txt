@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\Code\062\bin\Debug\062.exe.config
+C:\Users\Administrator\Desktop\Code\062\bin\Debug\062.exe
+C:\Users\Administrator\Desktop\Code\062\bin\Debug\062.pdb
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\_062.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\062.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\062.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\062.exe
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\062.pdb
+C:\Users\Administrator\Desktop\Code\062\bin\Debug\SexRadioButton.dll
+C:\Users\Administrator\Desktop\Code\062\bin\Debug\SexRadioButton.pdb
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\062.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\_062.Form1.resources
+C:\Users\Administrator\Desktop\Code\062\obj\Debug\062.csproj.CopyComplete

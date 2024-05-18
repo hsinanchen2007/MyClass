@@ -1,0 +1,58 @@
+#frame
+{           /*上右下左 全为30  ，默认是拉伸*/
+            border-image:url(:/img/test.png) 30 ;  /*图片九宫格*/
+
+          /*将图片的九宫格 显示到对应的 窗口九宫格上*/
+
+            /*四个边框宽度 ，窗口九宫格*/
+            border-top: 30px transparent;
+            border-bottom: 30px transparent;
+            border-right: 30px transparent;
+            border-left:30px transparent;
+         
+}
+
+#frame_2
+{           /*上右下左 分别为 10 30 10 30 的内容来*/
+            border-image:url(:/img/test.png) 15 30 15 30 ; 
+           /*四个边框宽度*/
+            border-top: 30px transparent;
+            border-bottom: 30px transparent;
+            border-right: 30px transparent;
+            border-left:30px transparent;
+}
+
+#frame_3
+{           /*33%的比例、  上下 是重复 、左右 是 拉伸*/
+            border-image:url(:/img/test.png) 33%  repeat  stretch ; 
+           /*四个边框宽度*/
+            border-top: 30px transparent;
+            border-bottom: 30px transparent;
+            border-right: 30px transparent;
+            border-left:30px transparent;
+}
+
+/******************************************************************/
+
+
+#widget
+{ /*不拉伸*/
+ background-image: url(:/img/gold.png);
+ background-repeat: no-repeat;/*不平铺*/
+}
+
+
+#widget_2
+{           /*拉伸导致图片变形*/
+            border-image:url(:/img/gold.png); 
+}
+
+#widget_3
+{          
+            /*保证图片四个边框不被拉伸*/
+            border-image:url(:/img/gold.png) 36 36 36 36;
+            border-top: 36px transparent;
+            border-bottom: 36px transparent;
+            border-right: 36px transparent;
+            border-left: 36px transparent;
+}

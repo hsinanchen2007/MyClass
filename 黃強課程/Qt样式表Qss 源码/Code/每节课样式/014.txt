@@ -1,0 +1,38 @@
+QGroupBox {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #E0E0E0, stop: 1 #FFFFFF);
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 2ex; /* 可调节边线到顶部的位置 ，ex em 都是相对字体大小单位*/ 
+    padding-top:3ex;
+    font-family: "Microsoft YaHei"; 
+    font: 20px  ;
+}
+
+#groupBox::title {
+    subcontrol-origin: margin;/*和margin的起点对齐*/
+    subcontrol-position: top center; /* position at the top center */ 
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF0ECE, stop: 1 #FFFFFF);
+}
+
+
+#groupBox_2::title{
+   subcontrol-origin: padding;/*和padding开始对齐*/
+   subcontrol-position: top left;  
+   background-color: red;
+}
+
+#groupBox_3::title{
+   subcontrol-origin: content;/*与内容对齐*/
+   subcontrol-position: top left; 
+   background-color: red;
+}
+
+#groupBox_4::title{
+   subcontrol-origin: border;/*与边框对齐*/
+   subcontrol-position: top left; 
+   background-color: red;
+}
+
+ 

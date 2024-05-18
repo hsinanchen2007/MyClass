@@ -1,0 +1,33 @@
+﻿/*
+实现一个函数将字符串src拷贝到字符串des中去
+void  MyStrCpy(char *des,char *src)
+{
+
+}
+
+ */
+#include <stdio.h> 
+
+//自定义字符串拷贝函数
+void  MyStrCpy(char* des, char* src)
+{
+    if (des == NULL || src == NULL)
+    {//检查指针是否为NULL
+        return;
+    }
+
+    while ((*des++ = *src++) != '\0'); 
+}
+
+void   main()
+{
+    char des[5] ="1234";
+
+    printf("拷贝前des字符串的值%s\n", des);
+
+    char* src = "good";
+    MyStrCpy(des, src);
+
+    printf("拷贝后des字符串的值%s\n", des);
+     
+}

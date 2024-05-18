@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*ID选择器*/
+#label 
+{
+
+  color: red;/*文字颜色*/
+
+  font-family:&quot;Microsoft Yahei&quot; ; /*字体*/
+
+  font-weight:bold;/*加粗*/
+
+  font-size: 48px; /*字体大小*/
+
+  font-style: italic; /*字体倾斜*/
+
+}
+
+
+/*ID选择器*/
+#label_2 
+{
+  font:  italic  bold  36px  &quot;华文行楷&quot;;  /*字体一行的设置*/
+  color:#00ff00;/*文本颜色*/
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>341</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测试字体样式</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>280</y>
+      <width>341</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测试字体样式</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

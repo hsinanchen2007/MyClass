@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/check.png</file>
+        <file>img/radio.png</file>
+        <file>img/right-arrow.png</file>
+        <file>img/icon.png</file>
+    </qresource>
+</RCC>

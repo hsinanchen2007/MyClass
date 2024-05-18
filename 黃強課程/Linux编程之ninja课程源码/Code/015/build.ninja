@@ -1,0 +1,8 @@
+#规则
+rule  r1
+            command  = gcc     $in    -o $out    
+            generator =  1 
+ 
+ #构建 
+build  a:   r1     a.c  
+

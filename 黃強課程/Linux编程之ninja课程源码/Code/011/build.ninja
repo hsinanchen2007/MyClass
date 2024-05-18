@@ -1,0 +1,21 @@
+#变量
+x   =  a
+y  =   a.c
+
+#规则
+rule  r1  
+    command =  echo    RULE  $out    $in    $x    $y
+   
+ #构建 
+build  $x :r1   $y
+ 
+build  $x :r1   $y
+    x =  b
+    y =   b.c
+ 
+build  $x :r1   $y
+    x =  c
+    y =  c.c
+    command =  echo    BUILD     $out    $in    $x    $y
+
+    

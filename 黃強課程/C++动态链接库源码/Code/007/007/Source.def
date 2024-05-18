@@ -1,0 +1,9 @@
+LIBRARY   
+
+
+EXPORTS
+
+fun666=fun   @12  
+Min   @1  NONAME
+Max   @5  PRIVATE
+

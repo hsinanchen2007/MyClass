@@ -1,0 +1,82 @@
+QTabWidget 
+{ 
+    /*需开启Qt::WA_StyledBackground)*/
+	 background-color: lightgreen;
+}
+
+
+/*tab条*/
+QTabWidget::tab-bar 
+{ 
+     left: 30px; /*距离左侧的像素*/ 
+     /*alignment: center;居中*/  
+}
+ 
+/*下方面板*/
+QTabWidget::pane 
+{  
+    border: 1px solid red;  
+    border-radius: 6px; 
+}
+
+
+ 
+ /*tab按钮*/
+QTabBar::tab {
+     
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    border: 1px solid  cyan; 
+    /*圆角*/
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+    min-width:80px; /*宽度*/
+    min-height:28px;/*高度*/
+    padding: 2px;
+}
+
+/*光标停留tab按钮*/
+QTabBar::tab:hover { 
+   background:orange;
+}
+
+/*tab按钮被选中*/
+QTabBar::tab:selected{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ffff00);/*渐变背景色*/
+    border-color: red;  
+    border-bottom-width:0px;
+}
+
+/*tab按钮未被选中*/
+QTabBar::tab:!selected 
+{
+    margin-top: 2px; /* 看起来小一点 */
+} 
+
+/*撕裂的子控件*/
+QTabBar::tear {
+   border-image: url(:/img/tear_indicator.png);
+}
+
+/*左右两个箭头按钮的宽度*/
+QTabBar::scroller {  
+    width: 20px;
+}
+
+/*左右两个箭头按钮*/
+QTabBar QToolButton {   
+     border: 1px solid  teal;  
+}
+
+/*左箭头*/
+ QTabBar QToolButton::left-arrow 
+{ 
+      image:url(:/img/left_arrow.png); 
+}
+
+/*右箭头*/
+QTabBar  QToolButton::right-arrow 
+{ 
+      image:url(:/img/right_arrow.png); 
+}
+
+

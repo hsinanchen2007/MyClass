@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Code\004\bin\Debug\004.exe.config
+C:\Users\Administrator\Desktop\Code\004\bin\Debug\004.exe
+C:\Users\Administrator\Desktop\Code\004\bin\Debug\004.pdb
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\_004.Form1.resources
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\_004.Form2.resources
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\_004.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.exe
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.pdb
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+﻿<Window x:Class="_014.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_014"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="radioButton" Content="男" HorizontalAlignment="Left" Margin="320,85,0,0" VerticalAlignment="Top" Height="25" Width="175" FontSize="20" Background="{x:Null}" Checked="radioButton_Checked" Unchecked="radioButton_Unchecked" GroupName="sex"/>
+        <RadioButton x:Name="radioButton_Copy" Content="女" HorizontalAlignment="Left" Margin="320,130,0,0" VerticalAlignment="Top" Height="25" Width="175" FontSize="20" GroupName="sex"/>
+        <RadioButton x:Name="radioButton_Copy1" Content="音乐" HorizontalAlignment="Left" Margin="320,192,0,0" VerticalAlignment="Top" Height="25" Width="175" FontSize="20"/>
+        <RadioButton x:Name="radioButton_Copy2" Content="编程" HorizontalAlignment="Left" Margin="320,235,0,0" VerticalAlignment="Top" Height="25" Width="175" FontSize="20"/>
+        <RadioButton x:Name="radioButton_Copy3" Content="跑步" HorizontalAlignment="Left" Margin="320,285,0,0" VerticalAlignment="Top" Height="25" Width="175" FontSize="20"/>
+
+    </Grid>
+</Window>

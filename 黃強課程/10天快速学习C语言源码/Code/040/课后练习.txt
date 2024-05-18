@@ -1,0 +1,63 @@
+﻿/*
+编写代码，存储3个学生结构体信息，并且成功读取
+ */
+
+#include <stdio.h>
+
+struct  Student
+{
+	int id;
+	char name[20];
+	int age;
+};
+
+int main()
+{
+
+	struct  Student stus[3] =
+	{
+		{1000,"张三",12},
+		{1001,"李四",16},
+		{1002,"王五",14},
+	};
+
+	//向文件中以二进制的方式写入数据
+	FILE* fp1 = fopen("学生信息.dat", "wb"); //文件扩展名可以随便写 
+	if (fp1 == NULL)
+	{
+		printf("打开文件失败！");
+		return;
+	}
+
+	for (int i = 0; i < 3; ++i)
+	{
+		//写入内容 
+		fwrite(&stus[i],/*写入的内容*/
+			sizeof(stus[i]), /*写多少字节*/
+			1, /*写几次*/
+			fp1 /*往哪个文件写*/);
+	}
+   
+	//关闭文件
+	fclose(fp1);
+
+
+	//向文件中以二进制的方式读出数据
+	FILE* fp2 = fopen("学生信息.dat", "rb"); //b表示以二进制的方式
+	if (fp2 == NULL)
+	{
+		printf("打开文件失败！");
+		return;
+	}
+	//写入内容 
+	for (int i = 0; i < 3; ++i)
+	{
+		struct Student stu;
+		fread(&stu, sizeof(stu), 1, fp2);
+		printf("学号%d  姓名%s 年龄%d \n", stu.id, stu.name, stu.age);
+	}
+	 
+	//关闭文件
+	fclose(fp2);
+
+}

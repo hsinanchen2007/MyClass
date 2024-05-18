@@ -1,0 +1,16 @@
+#变量
+hi   =  hello boy
+123   =  $$$:
+_  =    AA$$BB
+
+#规则
+rule   r1
+      command =  echo  ${hi},$123,$_  
+  #构建 
+build  a :  r1    
+
+#规则
+rule   r2
+     command =   touch  $out 
+ #构建 (输出名含有一个空格)
+build  b c   :  r2 

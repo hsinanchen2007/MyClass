@@ -1,0 +1,8 @@
+如果软件无法启动，打开CMD窗口，（以管理员身份运行），执行以下指令
+
+
+regsvr32 C:\Users\Administrator\Desktop\soft\PLC串口通信调试\COMDLG32.OCX
+
+regsvr32 C:\Users\Administrator\Desktop\soft\PLC串口通信调试\MSCOMCTL.OCX
+
+regsvr32 C:\Users\Administrator\Desktop\soft\PLC串口通信调试\MSCOMM32.OCX

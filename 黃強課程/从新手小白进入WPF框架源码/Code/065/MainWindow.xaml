@@ -1,0 +1,16 @@
+﻿<Window x:Class="_065.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_065" 
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="285" Margin="160,55,0,0" VerticalAlignment="Top" Width="495"  >
+            <ListBox.ItemsPanel>                <ItemsPanelTemplate>                    <StackPanel Orientation="Horizontal"   HorizontalAlignment="Center"/>                </ItemsPanelTemplate>             </ListBox.ItemsPanel>            <system:String >编程</system:String>            <ContentControl >音乐</ContentControl>            <ListViewItem>篮球</ListViewItem>
+        </ListBox>
+
+    </Grid>
+</Window>

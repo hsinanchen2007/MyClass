@@ -1,0 +1,22 @@
+﻿/*
+使用递归函数，求1~100的总和
+ */
+#include <stdio.h> 
+
+int  Sum(int  N)
+{
+    if (N == 1)
+    {
+        return  1; //1的和等于1
+     }
+    else
+    {
+        return  N+ Sum(N - 1); //100+前面99个数的和
+    }
+}
+
+void   main()
+{ 
+    int  c = Sum(100);
+    printf("1~100的和 等于 %d \n", c);
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QSpinBox
+{
+  /*字体颜色*/    
+    color:red; 
+    background:white; 
+    /*字体*/
+    font-family: &quot;Microsoft YaHei&quot;;  
+   /*字体尺寸*/
+    font-size: 20pt;
+
+    border: 1px  solid   black;    /*一行设置边框*/ 
+    border-radius: 10px  ;  /*圆角半径*/ 
+    padding-left:18px; /*文字距离左边的边距*/
+
+    selection-background-color:gold;/*选中背景色*/
+    selection-color: white;/*选中文字色*/
+
+}
+
+
+/*朝上的按钮*/
+QSpinBox::up-button
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right; /* position at the top right corner */
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    width: 44px; 
+    height:30px;
+    border-left: 1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    border-top-right-radius:10px; /*和外框半价一致*/
+   
+    margin-right:16px; /*距离右边距离*/
+}
+
+
+
+/*朝下的按钮*/
+QSpinBox::down-button
+{
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right; 
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee, stop:0.5 #ff0000);/*渐变背景色*/
+    width: 44px; 
+    height:30px; 
+    border-left: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    border-bottom-right-radius:10px; /*和外框半价一致*/
+    margin-right:16px;/*距离右边距离*/
+}
+
+
+/*鼠标放在按钮上面*/
+QSpinBox::up-button:hover
+{
+    background:  green;
+}
+
+/*按钮按下*/
+QSpinBox::up-button:pressed  
+{
+   background:  yellow;
+}
+
+
+
+/*向上的箭头*/
+QSpinBox::up-arrow
+{
+    border-image:url(:/img/up_arrow.png); /*拉伸图片*/
+    width: 29px;/*宽*/
+    height:29px;/*高*/
+}
+  
+/*向下的箭头*/
+QSpinBox::down-arrow
+{
+    image:url(:/img/down_arrow.png); /*本身图片大小，不拉伸*/
+    width: 29px;
+    height:29px;
+}
+
+
+/*被禁用向上箭头的状态*/
+QSpinBox::up-button:disabled  ,QSpinBox::down-button:disabled
+{ 
+	background: gray;
+	border: 0px solid #dddddd;/*边框*/
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>270</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\063.exe.config
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\063.exe
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\063.pdb
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\_063.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\063.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\063.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\063.exe
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\063.pdb
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\CircleButton.dll
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\SexRadioButton.dll
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\CircleButton.pdb
+C:\Users\Administrator\Desktop\Code\063\bin\Debug\SexRadioButton.pdb
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\063.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\_063.Form1.resources
+C:\Users\Administrator\Desktop\Code\063\obj\Debug\063.csproj.CopyComplete

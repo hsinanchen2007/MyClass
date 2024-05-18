@@ -1,0 +1,14 @@
+# 规则
+rule  r1
+  command =  sum=0; for i in $$(seq 1 1000000); do sum=$$((sum + i)); done; echo $$sum
+ 
+rule  r2
+  command =   xx
+ 
+# 构建 
+build   a1   :r1  
+build   a2   :r1 
+build   a3   :r1
+build   a4   :r1
+build   a5   :r1
+build   a6   :r1 

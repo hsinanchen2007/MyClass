@@ -1,0 +1,50 @@
+/*只对QWidget生效，派生类不生效*/
+.QWidget
+{
+ border:1px solid  black; /*边框*/
+}
+
+#widget
+{
+  background:red; /*设置背景色*/
+}
+
+#widget_2
+{
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0.2 red, stop:1 blue);/*线性渐变背景色*/ 
+}
+
+#widget_3
+{
+  background:qradialgradient(cx:0, cy:0, radius: 1,  fx:0.5, fy:0.5, stop:0 white, stop:1 green) ;/*半径渐变背景色*/ 
+}
+
+#widget_4
+{
+  background: qconicalgradient(cx:0.5, cy:0.5, angle:30,  stop:0 white, stop:1 #00FF00);/*圆锥渐变背景色*/ 
+}
+
+
+#widget_5
+{ 
+  background-color: yellow; /*设置背景色 */ 
+  background-image: url(:/img/cat.png); /*设置背景图片 */ 
+  background-repeat: no-repeat;/*不平铺*/
+  background-position:  right center;/*靠右居中*/ 
+}
+
+#widget_6
+{
+  background: url(:/img/cat.png)  repeat  right bottom; /*设置背景图片,xy方向平铺 ，居右下角*/ 
+}
+
+#widget_7
+{
+  background:  yellow  url(:/img/cat.png)   no-repeat  center; /*设置背景色，图片,不平铺，居中*/ 
+}
+
+
+#widget_8
+{
+  border-image:   url(:/img/cat.png)   /*设置背景图片,图片铺满*/ 
+}

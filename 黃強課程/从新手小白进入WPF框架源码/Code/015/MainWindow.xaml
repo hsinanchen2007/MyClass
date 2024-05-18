@@ -1,0 +1,15 @@
+﻿<Window x:Class="_015.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_015"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <CheckBox x:Name="checkBox" Content="编程"   IsChecked="True" IsThreeState="True" HorizontalAlignment="Left" Margin="350,110,0,0" VerticalAlignment="Top" Height="35" Width="180" FontSize="24" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Indeterminate="checkBox_Indeterminate" />
+        <CheckBox x:Name="checkBox_Copy" Content="音乐" HorizontalAlignment="Left" Margin="350,182,0,0" VerticalAlignment="Top" Height="35" Width="180" FontSize="24"  Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Indeterminate="checkBox_Indeterminate" />
+        <CheckBox x:Name="checkBox_Copy1" Content="篮球" HorizontalAlignment="Left" Margin="350,255,0,0" VerticalAlignment="Top" Height="35" Width="180" FontSize="24"   Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Indeterminate="checkBox_Indeterminate" />
+
+    </Grid>
+</Window>

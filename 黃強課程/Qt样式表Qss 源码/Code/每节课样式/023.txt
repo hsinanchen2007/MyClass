@@ -1,0 +1,115 @@
+
+   
+/*顶部菜单条*/
+QMenuBar
+ {
+    font-size:18px;
+    color:white;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 lightgray, stop:1 red);
+    spacing: 8px;  /*每一项的间隔*/
+}
+
+/*菜单项*/
+QMenuBar::item
+{
+    padding: 2px 4px; 
+    border-radius: 4px;
+     /*边框样式*/
+    border:1px solid white; 
+}
+
+/*菜单项被选中*/
+QMenuBar::item:selected 
+{  
+    background:  gold;
+}
+
+/*菜单项被按下*/
+QMenuBar::item:pressed {
+    background: cyan;
+}
+
+
+/*************************************************/
+
+/*子菜单*/
+QMenu
+{
+    background-color: greenyellow;
+    margin: 2px; 
+}
+
+/*子菜单项*/
+QMenu::item 
+{
+    padding: 2px 25px 2px 20px;
+    border: 1px solid blue; /* reserve space for selection border */
+}
+
+/*子菜单项被选中*/
+QMenu::item:selected 
+{
+    background:  tomato;/*番茄色*/
+}
+
+/*子菜单项被按下*/
+QMenu::item:pressed 
+{ 
+    background:  pink;/*粉色*/
+}
+
+/*勾选图标*/
+QMenu::icon:checked 
+{  
+    background: gray;
+    border: 1px inset gray;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+}
+
+/*菜单分隔条*/
+QMenu::separator 
+{
+    height: 8px;
+    background: lightblue;
+    margin: 10px; /*上下左右留空*/
+}
+
+
+/*菜单左侧指示*/
+QMenu::indicator 
+{
+    width: 13px;
+    height: 13px; 
+}
+
+/*非排它，表示可以菜单可以勾选多个*/
+QMenu::indicator:non-exclusive:checked {
+    image: url(:/img/check.png);
+} 
+
+QMenu::indicator:non-exclusive:unchecked {
+    
+}
+
+ /*排他，一组中只能选择一个*/
+ QMenu::indicator:exclusive:checked {
+     image: url(:/img/radio.png);
+}
+ 
+ QMenu::indicator:exclusive:unchecked {
+   
+}
+
+ /*二级菜单的箭头*/
+QMenu::right-arrow 
+{
+	right:5px;/*调整箭头位置*/
+    image:url(:/img/right-arrow.png);
+}
+
+ 

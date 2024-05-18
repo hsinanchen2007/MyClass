@@ -1,0 +1,28 @@
+﻿<Window x:Class="_018.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_018"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+   <!--页面级的资源, 对整个页面有效-->
+    <Window.Resources> 
+        <SolidColorBrush  x:Key="MyBrush" Color="Green" ></SolidColorBrush>
+    </Window.Resources>
+        
+        
+    <Grid> 
+        <Label x:Name="label"   Background="{ DynamicResource  MyBrush}"   Content="Label" HorizontalAlignment="Left" Margin="285,115,0,0" VerticalAlignment="Top" Height="55" Width="270" FontSize="22">
+            <Label.Resources>
+                    <!--元素级资源，范围仅对这个元素生效-->
+                <SolidColorBrush  x:Key="MyBrush" Color="Red" ></SolidColorBrush>
+            </Label.Resources>
+        </Label>
+
+
+        <Label x:Name="label_Copy"    Background="{ DynamicResource  MyBrush}"      Content="Label" HorizontalAlignment="Left" Margin="285,200,0,0" VerticalAlignment="Top" Height="55" Width="270" FontSize="22"/>
+
+    </Grid>
+</Window>

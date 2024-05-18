@@ -1,0 +1,6 @@
+# 规则
+rule  r1
+  command =    echo   dir/build.ninja的规则 
+   
+# 构建 
+build   a   :r1  

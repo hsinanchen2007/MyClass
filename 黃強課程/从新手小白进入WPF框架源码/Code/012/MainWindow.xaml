@@ -1,0 +1,23 @@
+﻿<Window x:Class="_012.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_012"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox 
+            Background="#FFF10B0B" 
+            Foreground="#FFFAF8F8" 
+            CaretBrush="#FF08F990" 
+            SelectionBrush="Blue"
+            TextWrapping="NoWrap"
+            MaxLength="40"
+            AcceptsReturn="True" 
+            TextChanged="textBox_TextChanged"
+            
+            x:Name="textBox" HorizontalAlignment="Left" Height="80" Margin="225,180,0,0"  Text="欢迎来到黄强老师的课堂！" VerticalAlignment="Top" Width="190" FontSize="22" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible"   />
+
+    </Grid>
+</Window>

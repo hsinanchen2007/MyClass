@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Code\044\bin\Debug\044.exe.config
+C:\Users\Administrator\Desktop\Code\044\bin\Debug\044.exe
+C:\Users\Administrator\Desktop\Code\044\bin\Debug\044.pdb
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\_044.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\044.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\044.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\044.exe
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\044.pdb
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\044.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\044\obj\Debug\_044.Form1.resources

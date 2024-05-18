@@ -1,0 +1,9 @@
+#版本号
+ninja_dyndep_version = 1
+
+#构建语句必须与ninja 构建文件中使
+#用dyndep变量的构建语句一一对应
+
+build  a  | a.o : dyndep   |  a.h 
+#build  a            : dyndep   |  a.h
+#build  a  | a.o : dyndep 

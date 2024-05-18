@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始执行</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="activeThreadNumButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>120</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>活动线程数</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="prioityButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>240</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始执行（优先级）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="waitButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>370</y>
+      <width>421</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始执行后等待所有线程执行完毕</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

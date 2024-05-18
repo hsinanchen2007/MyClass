@@ -1,0 +1,11 @@
+﻿<Application x:Class="_018.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_018"
+             StartupUri="MainWindow.xaml">
+     <!-- 应用程序级资源，对整个项目有效-->
+    <Application.Resources>
+        <SolidColorBrush  x:Key="MyBrush" Color="Blue" ></SolidColorBrush>
+    </Application.Resources>
+    
+</Application>

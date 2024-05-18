@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Code\033\bin\Debug\033.exe.config
+C:\Users\Administrator\Desktop\Code\033\bin\Debug\033.exe
+C:\Users\Administrator\Desktop\Code\033\bin\Debug\033.pdb
+C:\Users\Administrator\Desktop\Code\033\obj\Debug\_033.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\033\obj\Debug\033.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\033\obj\Debug\033.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\033\obj\Debug\033.exe
+C:\Users\Administrator\Desktop\Code\033\obj\Debug\033.pdb
+C:\Users\Administrator\Desktop\Code\033\obj\Debug\_033.Form1.resources

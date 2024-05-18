@@ -1,0 +1,49 @@
+﻿<Window x:Class="_060.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_060"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="850" Width="800">
+    <Window.Resources>
+
+        <Style  TargetType="Button">
+
+            <Setter  Property="Template">
+                <Setter.Value>
+                    
+                    <ControlTemplate  TargetType="Button">
+                        <Grid>
+                            <Ellipse   x:Name="ell" Fill="{TemplateBinding Background}" 
+                                      Stroke="{TemplateBinding BorderBrush}"
+                                      StrokeThickness= "{Binding RelativeSource={RelativeSource TemplatedParent}, Path=BorderThickness.Top}" />
+                            
+                            <ContentPresenter  VerticalAlignment="Center"  HorizontalAlignment="Center"    />
+                        </Grid>
+
+                        <ControlTemplate.Triggers>                            <Trigger Property="IsMouseOver" Value="True">                                <Setter TargetName="ell"  Property="Fill" Value="#FFB0E60D"/>                                <Setter TargetName="ell"  Property="Stroke" Value="Yellow"/>                            </Trigger>                            <Trigger Property="IsPressed" Value="True">                                <Setter TargetName="ell" Property="Fill" Value="Cyan"/>                                <Setter TargetName="ell" Property="Stroke" Value="Gold"/>                            </Trigger>                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+                    
+                </Setter.Value>
+                
+            </Setter>
+            
+        </Style>
+
+
+
+        <ControlTemplate   x:Key="beautyButtonCT" TargetType="Button">            <Grid>                <Ellipse  x:Name="ell"  >                    <Ellipse.Fill>                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">                            <GradientStop Offset="0" Color="blue"/>                            <GradientStop Offset="1" Color="LightBlue"/>                        </LinearGradientBrush>                    </Ellipse.Fill>                </Ellipse>                <Ellipse  Margin="20" >                    <Ellipse.Fill>                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">                            <GradientStop Offset="0" Color="White"/>                            <GradientStop Offset="1" Color="Transparent"/>                        </LinearGradientBrush>                    </Ellipse.Fill>                </Ellipse>                <ContentPresenter   HorizontalAlignment="Center"  VerticalAlignment="Center" />            </Grid>            <ControlTemplate.Triggers>                <Trigger Property="IsMouseOver" Value="true">                    <Setter TargetName="ell" Property="Fill" Value="Red"/>                </Trigger>                <Trigger Property="IsPressed" Value="true">                    <Setter TargetName="ell" Property="Fill" Value="Orange"/>                </Trigger>            </ControlTemplate.Triggers>        </ControlTemplate>
+
+
+    </Window.Resources>
+    
+    
+    <StackPanel>
+        <Button x:Name="button"      Background="Red"    BorderBrush="Cyan"  BorderThickness="20"    Content="圆形按钮"  Width="200"  Height="200"/>
+        <Button x:Name="button2"    Background="Green"   BorderBrush="Orange"  BorderThickness="5"     Content="椭圆按钮"  Width="200"  Height="100"  Margin="20"/>
+        <Button x:Name="button3"    Template="{StaticResource  beautyButtonCT}"   Content="漂亮按钮" Width="200"  Height="200"  />
+
+    </StackPanel>
+</Window>

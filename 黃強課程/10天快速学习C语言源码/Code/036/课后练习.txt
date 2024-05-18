@@ -1,0 +1,32 @@
+﻿/*
+编写一个函数修改学生信息，要求参数必须是结构体指针
+ */
+#include <stdio.h> 
+ 
+struct  Student
+{
+	int id;
+	char name[20];
+	int age;
+};//学生结构体类型
+
+void Modify(struct Student* pStu , int id, char *name, int age)
+{
+	pStu->id = id;
+	strcpy(pStu->name, name);
+	pStu->age = age;
+ }
+
+void   main()
+{
+	struct Student  stu = { 1000,"张三",12 };
+	
+	printf("学号:%d   姓名:%s   年龄:%d\n", stu.id, stu.name, stu.age);
+
+
+	 //修改学生信息
+	Modify(&stu, 2000, "小贝", 8);
+
+	printf("修改后 \n学号:%d   姓名:%s   年龄:%d\n", stu.id, stu.name, stu.age);
+
+}

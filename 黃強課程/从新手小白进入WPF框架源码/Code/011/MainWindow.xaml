@@ -1,0 +1,23 @@
+﻿<Window x:Class="_011.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_011"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock  Background="#FFF0C213"  
+                             FontSize="30" 
+                             Foreground="#FFFDFCFD" 
+                             FontWeight="Bold"
+                             FontFamily="KaiTi" 
+                             FontStyle="Italic" 
+                             TextWrapping="Wrap" 
+                             TextAlignment="Center"
+                    >
+       跟着<Bold    Background="Red"  >黄强</Bold>老师       <LineBreak/>       <Hyperlink NavigateUri="https://www.microsoft.com"   RequestNavigate="RequestNavigate">Microsoft</Hyperlink>       <LineBreak/>       <Run Background="Cyan"   FontStyle="Italic"  Foreground="Blue">一起学编程！</Run>        <LineBreak/>       <Span Background="Red">专业</Span>       <LineBreak/>       <Image Source="/Images/plane.png" Width="200" Height="100"/>            <Label>这是一个Label</Label>
+        </TextBlock>
+
+    </Grid>
+</Window>

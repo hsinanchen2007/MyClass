@@ -1,0 +1,47 @@
+﻿/*
+编写代码，将星期一至星期日定义为枚举，并根据用户的输入打印相关中文！
+ */
+#include <stdio.h> 
+ 
+enum   Day
+{
+	 Monday=1,
+	 Tuesday,
+	 Wednesday,
+	 Thursday,
+	 Friday,
+	 Saturday,
+	Sunday
+};//一周的枚举
+ 
+void   main()
+{ 
+	printf("请输入一个数字：\n");
+	int day = 0;
+	scanf("%d", &day);
+
+	switch (day)
+	{
+	case Monday:
+		printf("星期一\n");
+		break;
+	case Tuesday:
+		printf("星期二\n");
+		break;
+	case Wednesday:
+		printf("星期三\n");
+		break;
+	case Thursday:
+		printf("星期四\n");
+		break;
+	case Friday:
+		printf("星期五\n");
+		break;
+	case Saturday:
+		printf("星期六\n");
+		break;
+	case Sunday:
+		printf("星期日\n");
+		break;
+	}
+}

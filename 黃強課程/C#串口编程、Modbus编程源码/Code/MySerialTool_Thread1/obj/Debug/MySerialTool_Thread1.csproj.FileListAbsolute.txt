@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool.Form1.resources
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\bin\Debug\MySerialTool_Thread1.exe.config
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\bin\Debug\MySerialTool_Thread1.exe
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\bin\Debug\MySerialTool_Thread1.pdb
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.exe
+C:\Users\Administrator\Desktop\Code\MySerialTool_Thread1\obj\Debug\MySerialTool_Thread1.pdb

@@ -1,0 +1,16 @@
+#规则
+rule  r1
+               command = gcc   $in  -o $out 
+ 
+ #构建 
+build  /home/hq/a:  r1   a.c   
+build  b: r1   b.c  
+build  c: r1   c.c  
+
+ #使用特殊规则，创建目标别名
+build  a:    phony      /home/hq/a
+build  all:  phony   a   b  c   
+
+ 
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#label
+{
+    border-width: 2px 5px 10px 15px; /* 上右下左*/
+
+    border-style: dotted  dashed  solid   double; /* 上右下左*/
+
+    border-color:   red  black   green  blue;/* 上右下左*/
+}
+
+#label_2
+{
+    border-width: 1px ; /* 上右下左*/
+
+    border-style:  solid ; /* 上右下左*/
+
+    border-color:  green  red  ;/* 上右下左*/
+
+    border-radius:  30px; /*四个角全部生效*/
+}
+
+#label_3
+{
+    border:  1px   solid  red  ; /*一行指定边框*/ 
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>321</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测试边框的样式</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>210</y>
+      <width>321</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测试边框的样式</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>390</y>
+      <width>321</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测试边框的样式</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>818</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\Code\061\bin\Debug\061.exe.config
+C:\Users\Administrator\Desktop\Code\061\bin\Debug\061.exe
+C:\Users\Administrator\Desktop\Code\061\bin\Debug\061.pdb
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\_061.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\061.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\061.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\061.exe
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\061.pdb
+C:\Users\Administrator\Desktop\Code\061\bin\Debug\CircleButton.dll
+C:\Users\Administrator\Desktop\Code\061\bin\Debug\CircleButton.pdb
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\061.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\_061.Form1.resources
+C:\Users\Administrator\Desktop\Code\061\obj\Debug\061.csproj.CopyComplete

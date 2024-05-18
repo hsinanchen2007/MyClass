@@ -1,0 +1,28 @@
+﻿/*
+已有函数
+int  sum(int  a,int b)
+{
+  return a+b;
+}
+请使用函数指针调用它！
+
+ */
+#include <stdio.h> 
+
+int  sum(int  a, int b)
+{
+    return a + b;
+}
+
+void   main()
+{
+    int  (*pSum)(int  a, int b);
+
+    pSum = sum;
+
+    //使用函数指针调用函数
+    int  a = pSum(100, 200);
+
+    printf("a的值是 %d\n", a);
+
+}

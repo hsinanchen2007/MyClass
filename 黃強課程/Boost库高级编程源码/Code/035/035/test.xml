@@ -1,0 +1,9 @@
+<stu>
+		<name id="1000">小明</name>
+		<age>18</age>
+		<score>8.23</score>
+		<lesson>
+			<name>语文</name>
+			<name>数学</name> 
+		</lesson>
+</stu>

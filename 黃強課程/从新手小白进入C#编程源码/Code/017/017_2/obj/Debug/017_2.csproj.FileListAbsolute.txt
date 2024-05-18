@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Code\017\017_2\bin\Debug\017_2.exe.config
+C:\Users\Administrator\Desktop\Code\017\017_2\bin\Debug\017_2.exe
+C:\Users\Administrator\Desktop\Code\017\017_2\bin\Debug\017_2.pdb
+C:\Users\Administrator\Desktop\Code\017\017_2\obj\Debug\017_2.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\017\017_2\obj\Debug\017_2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\017\017_2\obj\Debug\017_2.exe
+C:\Users\Administrator\Desktop\Code\017\017_2\obj\Debug\017_2.pdb
+C:\Users\Administrator\Desktop\Code\017\017_2\bin\Debug\017_1.exe
+C:\Users\Administrator\Desktop\Code\017\017_2\bin\Debug\017_1.pdb
+C:\Users\Administrator\Desktop\Code\017\017_2\bin\Debug\017_1.exe.config
+C:\Users\Administrator\Desktop\Code\017\017_2\obj\Debug\017_2.csproj.CopyComplete

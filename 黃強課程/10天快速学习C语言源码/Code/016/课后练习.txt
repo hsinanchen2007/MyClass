@@ -1,0 +1,22 @@
+﻿/*
+编写一个float数组存储10个学生的成绩，并求出平均成绩！
+ */
+#include <stdio.h> 
+
+void   main()
+{ 
+	//定义的时候先初始化8个学生成绩
+	float  scores[10] = { 100,65,36,42,87,64,99,90 };
+
+	//给剩下2个学生输入成绩
+	 scores[8] = 75 ;
+	 scores[9] = 69;
+
+	 float sum = 0;
+	 for (int i = 0; i < 10; ++i)
+	 {
+		 sum += scores[i]; 
+	 }
+	  
+	 printf("学生的平均成绩为%.2f\n", sum / 10);
+}

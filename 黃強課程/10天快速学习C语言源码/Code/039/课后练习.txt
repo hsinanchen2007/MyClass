@@ -1,0 +1,14 @@
+﻿/*
+编写一个带参数的宏SQUARE(a)，求a的平方
+ */
+#include <stdio.h> 
+
+#define  SQUARE(a)   (a)*(a) 
+//你不加括号试试
+
+void   main()
+{ 
+	int  a = 2;
+	int  b = 3;
+	printf(" SQUARE (a+b) 的值是%d\n", SQUARE(a + b));
+}

@@ -1,0 +1,9 @@
+# 规则
+rule  r1
+  command =   gcc    $in -o $out ;   gcc  -c  $in 
+   
+# 构建 
+build   a  | a.o :  r1  a.c 
+
+
+

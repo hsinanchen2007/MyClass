@@ -1,0 +1,13 @@
+#规则语句(配方)
+rule  r1
+  command = gcc  -c $in -o $out
+rule r2
+  command = gcc   $in -o  $out 
+
+ #构建语句(目标 ，先决条件) 
+build fun.o     : r1   fun.c
+build main.o : r1   main.c
+build app       :   r2  main.o  fun.o
+
+
+

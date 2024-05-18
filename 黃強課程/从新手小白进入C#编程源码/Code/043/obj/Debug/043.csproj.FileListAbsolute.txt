@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Code\043\bin\Debug\043.exe.config
+C:\Users\Administrator\Desktop\Code\043\bin\Debug\043.exe
+C:\Users\Administrator\Desktop\Code\043\bin\Debug\043.pdb
+C:\Users\Administrator\Desktop\Code\043\obj\Debug\043.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\043\obj\Debug\043.exe
+C:\Users\Administrator\Desktop\Code\043\obj\Debug\043.pdb

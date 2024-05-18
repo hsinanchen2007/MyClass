@@ -1,0 +1,37 @@
+﻿<Window x:Class="_020.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_020" 
+        xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib" 
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!--定义了 Teacher类的资源-->
+        <local:Teacher  x:Key="teacher"  Name="黄强">
+            <local:Teacher.Contact >
+                <local:Contact City="上海"  Phone="123456"  />
+            </local:Teacher.Contact>
+            <local:Teacher.Skill>
+                <collections:ArrayList>
+                    <system:String>C++</system:String>
+                    <system:String>Java</system:String>
+                </collections:ArrayList>
+            </local:Teacher.Skill>
+        </local:Teacher>
+        
+        <!--字符串资源-->
+        <system:String   x:Key="str" >这是一个字符串</system:String>
+        
+        
+    </Window.Resources>
+    <Grid>
+        <TextBox x:Name="textBox"    Text="{Binding   Source={StaticResource teacher} , Path=Name  }"   HorizontalAlignment="Left" Height="50" Margin="270,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="265" FontSize="24"/>
+        <TextBox x:Name="textBox1"  Text="{Binding   Source={StaticResource teacher} , Path=Contact.City   }"     HorizontalAlignment="Left" Height="50" Margin="270,155,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="265" FontSize="24"/>
+        <TextBox x:Name="textBox2"  Text="{Binding   Source={StaticResource teacher} , Path=Skill[0]   }"    HorizontalAlignment="Left" Height="50" Margin="270,230,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="265" FontSize="24"/>
+        <TextBox x:Name="textBox3"  Text="{Binding   Source={StaticResource str} ,         Path=.  }"    HorizontalAlignment="Left" Height="50" Margin="270,300,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="265" FontSize="24"/>
+
+    </Grid>
+</Window>

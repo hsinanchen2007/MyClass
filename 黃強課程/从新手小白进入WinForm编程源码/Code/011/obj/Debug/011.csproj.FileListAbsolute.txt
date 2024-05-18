@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Code\011\bin\Debug\011.exe.config
+C:\Users\Administrator\Desktop\Code\011\bin\Debug\011.exe
+C:\Users\Administrator\Desktop\Code\011\bin\Debug\011.pdb
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\011.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\_011.Form1.resources
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\_011.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\011.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\011.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\011.exe
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\011.pdb
+C:\Users\Administrator\Desktop\Code\011\obj\Debug\_011.Resource1.resources

@@ -1,0 +1,19 @@
+#池子
+pool   p1
+  depth = 1
+ 
+pool   p2
+  depth = 4
+
+# 规则
+rule  r1
+  command =   echo  $in  $out
+   pool = p1
+   
+# 构建 
+build   a   :r1     
+   pool = p2
+
+# 指定空池、将构建语句重新放置到默认池中，而默认池具有无限的深度
+build   b   :r1     
+   pool =  

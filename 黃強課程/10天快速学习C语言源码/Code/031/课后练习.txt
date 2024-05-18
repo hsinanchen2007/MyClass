@@ -1,0 +1,21 @@
+﻿/*
+敲代码验证课堂练习
+
+ */
+#include <stdio.h> 
+
+ 
+
+void   main()
+{
+	int  a[3] = { 1,2,3 };
+	int   b[3] = { 4,5,6 };
+	int* c[2] = { a,b };
+
+	int A = *(c + 1)[0];
+	int B = c[1] + 0; //一个地址
+	int C = c[1][0];
+	int D = *(*(c + 1));
+    printf(" %d    %d    %d   %d\n", A,B,C,D);
+
+}

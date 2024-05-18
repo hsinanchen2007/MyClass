@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Code\036\bin\Debug\036.exe.config
+C:\Users\Administrator\Desktop\Code\036\bin\Debug\036.exe
+C:\Users\Administrator\Desktop\Code\036\bin\Debug\036.pdb
+C:\Users\Administrator\Desktop\Code\036\obj\Debug\036.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\036\obj\Debug\_036.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\036\obj\Debug\036.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\036\obj\Debug\036.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\036\obj\Debug\036.exe
+C:\Users\Administrator\Desktop\Code\036\obj\Debug\036.pdb

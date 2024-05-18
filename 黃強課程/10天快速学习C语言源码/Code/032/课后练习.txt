@@ -1,0 +1,16 @@
+﻿/*
+定义一个char ****p;请为它赋一个非NULL值
+
+ */
+#include <stdio.h> 
+ 
+void   main()
+{
+	char a = 'A';
+	char* pA = &a;
+	char** ppA = &pA;
+	char*** pppA = &ppA;
+
+	char**** p=&pppA;//为它赋值了一个非NULL值
+
+}

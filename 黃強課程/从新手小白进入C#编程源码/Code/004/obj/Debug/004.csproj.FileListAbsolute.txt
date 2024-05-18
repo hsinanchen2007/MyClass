@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\Code\004\bin\Debug\004.exe.config
+C:\Users\Administrator\Desktop\Code\004\bin\Debug\004.exe
+C:\Users\Administrator\Desktop\Code\004\bin\Debug\004.pdb
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.exe
+C:\Users\Administrator\Desktop\Code\004\obj\Debug\004.pdb

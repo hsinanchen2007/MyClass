@@ -1,0 +1,39 @@
+﻿<Window x:Class="_050.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_050"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TreeView x:Name="treeView" HorizontalAlignment="Left" Height="265" Margin="165,0,0,0" VerticalAlignment="Center" Width="480" SelectedItemChanged="treeView_SelectedItemChanged">
+
+            <TreeViewItem  Header="黄强老师"  IsExpanded="True"  >
+
+                <TreeViewItem  Header="C++编程"  IsExpanded="True" >
+                    <TreeViewItem  Header="基础" Selected="TreeViewItem_Selected" Unselected="TreeViewItem_Unselected"      />
+                    <TreeViewItem  Header="高级"  />
+                </TreeViewItem>
+
+                <TreeViewItem  Header="JAVA编程"  >
+
+                </TreeViewItem>
+
+            </TreeViewItem>
+
+            <TreeViewItem   IsExpanded="True" >
+                <TreeViewItem.Header>
+                    <Grid>
+                        <Rectangle Fill="Red"   Width="100"  Height="30" />
+                        <TextBlock  Text="李老师"  Height="20" ></TextBlock>
+                    </Grid>
+                </TreeViewItem.Header>
+                <TreeViewItem  Header="Python"  />
+
+            </TreeViewItem>
+
+        </TreeView>
+
+    </Grid>
+</Window>

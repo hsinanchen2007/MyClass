@@ -1,0 +1,46 @@
+/*表头样式*/
+QHeaderView::section
+{
+
+ /*背景色*/
+ background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #D8D9DE,stop:1 rgb(100,150,230)); 
+ /*文字颜色*/
+ color:white; 
+ /*边框样式*/
+ border:1px solid white; 
+}
+ 
+
+QTableView
+{ 
+/*每行交替色*/  
+alternate-background-color:  lightgray;  
+/*网格线颜色*/
+gridline-color:gray; 
+/*字体大小*/
+font-size:16px;
+/*去除虚线框*/
+outline:none;
+}
+
+/*左上角按钮*/
+QTableView QTableCornerButton::section {
+    background: gold;
+    border: 2px outset red;
+}
+ 
+
+/*选中item*/
+QTableView::item:selected
+{  
+  background:red;
+}
+
+/* 鼠标悬浮item*/
+QTableView::item:hover
+{ 
+ background:blue;
+}
+
+
+ 

@@ -1,0 +1,7 @@
+:Base help
+1 概述
+2 欢迎使用"PLC串口通信调试"=welcome
+1 使用方法
+2 菜单介绍=menu
+2 组织发送帧=CreateFrame
+2 通信数据的显示与记录=View&Record

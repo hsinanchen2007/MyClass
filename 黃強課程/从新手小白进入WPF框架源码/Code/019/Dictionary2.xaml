@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="MyBrush" Color="Black"></SolidColorBrush>
+    <BitmapImage   x:Key="MyImage"   UriSource="Images/plane.png" ></BitmapImage>
+    <BitmapImage   x:Key="MyImage2"   UriSource="Images/ball.png" ></BitmapImage>    
+    <BitmapImage   x:Key="MyImage3"   UriSource="Images/cat.bmp" ></BitmapImage> 
+    
+</ResourceDictionary>

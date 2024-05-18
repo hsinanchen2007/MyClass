@@ -1,0 +1,22 @@
+#frame
+{
+ border: 1px  solid   black;    /*一行设置边框*/  
+ 
+}
+
+#frame_2
+{
+
+ border: 20px  solid   red;    /*一行设置边框*/ 
+ margin: 0px 20px  40px 80px;  /*距离外部*/ 
+ padding: -10px 20px  40px 80px  ;  /*距离内部*/
+ 
+}
+
+ 
+#label
+{
+  background:blue;
+}
+
+ 

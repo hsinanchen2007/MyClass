@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+   
+/*顶部菜单条*/
+QMenuBar
+ {
+    font-size:18px;
+    color:white;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 lightgray, stop:1 red);
+    spacing: 8px;  /*每一项的间隔*/
+}
+
+/*菜单项*/
+QMenuBar::item
+{
+    padding: 2px 14px; 
+    border-radius: 4px;
+     /*边框样式*/
+    border:1px solid white; 
+}
+
+/*菜单项被选中*/
+QMenuBar::item:selected 
+{  
+    background:  gold;
+}
+
+/*菜单项被按下*/
+QMenuBar::item:pressed {
+    background: cyan;
+}
+
+
+
+
+/*************************************************/
+
+/*子菜单*/
+QMenu
+{
+    background-color: greenyellow;
+    margin: 2px; 
+}
+
+
+/*子菜单项*/
+QMenu::item 
+{
+    padding: 2px 25px 2px 20px;
+    border: 1px solid blue; /* reserve space for selection border */
+}
+
+
+/*子菜单项被选中*/
+QMenu::item:selected 
+{
+    background:  tomato;/*番茄色*/
+}
+
+/*子菜单项被按下*/
+QMenu::item:pressed 
+{ 
+    background:  pink;/*粉色*/
+}
+
+
+
+
+/*勾选图标*/
+QMenu::icon:checked 
+{  
+    background: gray;
+    border: 1px inset red;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    bottom: 1px;
+    left: 10px;
+}
+
+
+
+
+/*菜单分隔条*/
+QMenu::separator 
+{
+    height: 8px;
+    background: lightblue;
+    margin: 10px; /*上下左右留空*/
+}
+
+
+/*菜单左侧指示*/
+QMenu::indicator 
+{
+    width: 13px; /*宽高*/
+    height: 13px; 
+}
+
+
+/*非排它，表示可以菜单可以勾选多个*/
+QMenu::indicator:non-exclusive:checked {
+    border-image: url(:/img/check.png);
+} 
+
+QMenu::indicator:non-exclusive:unchecked {
+    
+}
+
+ /*排他，一组中只能选择一个*/
+ QMenu::indicator:exclusive:checked {
+     border-image: url(:/img/radio.png);
+}
+ 
+ QMenu::indicator:exclusive:unchecked {
+   
+}
+
+
+
+
+ /*二级菜单的箭头*/
+QMenu::right-arrow 
+{
+	right:5px;/*调整箭头位置*/
+    image:url(:/img/right-arrow.png);
+}
+
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>黄强老师</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionC"/>
+    <addaction name="actionC_2"/>
+    <addaction name="actionJAVA"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编程课堂</string>
+    </property>
+    <widget class="QMenu" name="menuPython">
+     <property name="title">
+      <string>Python</string>
+     </property>
+     <addaction name="actionEasy"/>
+    </widget>
+    <widget class="QMenu" name="menuObjectC">
+     <property name="title">
+      <string>ObjectC</string>
+     </property>
+     <addaction name="actionHard"/>
+    </widget>
+    <addaction name="menuPython"/>
+    <addaction name="menuObjectC"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/icon.png</normaloff>:/img/icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>欢迎光临</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>学习编程</string>
+   </property>
+  </action>
+  <action name="actionC">
+   <property name="text">
+    <string>C</string>
+   </property>
+  </action>
+  <action name="actionC_2">
+   <property name="text">
+    <string>C++</string>
+   </property>
+  </action>
+  <action name="actionJAVA">
+   <property name="text">
+    <string>JAVA</string>
+   </property>
+  </action>
+  <action name="actionEasy">
+   <property name="text">
+    <string>Easy</string>
+   </property>
+  </action>
+  <action name="actionHard">
+   <property name="text">
+    <string>Hard</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

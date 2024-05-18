@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QComboBox 
+{
+    border: 1px solid blue; /*边框*/
+    border-radius: 16px;  /*圆角*/ 
+    font: italic   bold   32px &quot;Microsoft YaHei&quot;;/*字体*/
+}
+
+
+ /*下拉框展开*/
+QComboBox:on 
+{  
+      border-radius: 0px; /*直角*/
+}
+
+/*右侧子控件*/
+QComboBox::drop-down 
+{
+
+    subcontrol-origin: padding;
+    subcontrol-position: top right;/*放在右侧*/
+    width: 65px; /*宽度*/
+
+    /*边框*/
+    border-width: 1px;
+    border-color: red;
+    border-style: solid; 
+
+    border-top-right-radius: 16px; /* 需要和QComboBox保持一致 */
+    border-bottom-right-radius: 16px;
+}
+
+
+
+
+/*箭头子控件*/
+QComboBox::down-arrow 
+{  
+      image: url(:/img/down.png);/*图片*/
+}
+
+/*箭头子控件，点击*/
+QComboBox::down-arrow:on 
+{ 
+     image: url(:/img/up.png);/*图片*/
+}
+
+
+/*下拉视图*/
+QComboBox QAbstractItemView 
+{ 
+    border: 2px solid green; 
+    selection-background-color: yellow;/*选中背景色*/
+    selection-color:green;/*选中文字色*/ 
+    color: black; /*文字颜色*/
+} 
+
+
+/*下拉视图每一项*/
+
+ /* 这里需要指定comboBox-&gt;setView(new QListView());才生效 */
+QComboBox QAbstractItemView::item
+{
+     border: 1px solid red; /*边框*/ 
+}
+
+/*鼠标划过每一项*/
+QComboBox QAbstractItemView::item:hover
+{ 
+     background:gold;
+}
+
+
+
+/*不可编辑的*/
+QComboBox:!editable {
+       background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                 stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+}
+
+/*对象属性*/
+#comboBox_2
+{
+   /*对象属性*/
+   qproperty-editable:true;
+  
+}
+
+
+
+/*可编辑的下拉框样式指定*/
+
+QComboBox:editable {
+    background: yellow;
+}
+
+QComboBox::drop-down:editable {
+     background: red;
+}
+ 
+QComboBox::drop-down:editable:on {
+     background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>140</y>
+      <width>361</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>你好</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>黄强老师</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>欢迎你来学习</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>加油</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>300</y>
+      <width>361</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>你好</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>黄强老师</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>欢迎你来学习</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>加油</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

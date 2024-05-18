@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\bin\Debug\MySerialTool.exe.config
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\bin\Debug\MySerialTool.exe
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\bin\Debug\MySerialTool.pdb
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.Form1.resources
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.Properties.Resources.resources
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.exe
+C:\Users\Administrator\Desktop\C#串口编程、Modbus高级编程\Code\MySerialTool\obj\Debug\MySerialTool.pdb

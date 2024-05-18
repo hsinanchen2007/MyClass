@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Code\MyModbusTool\bin\Debug\MyModbusTool.exe.config
+C:\Users\Administrator\Desktop\Code\MyModbusTool\bin\Debug\MyModbusTool.exe
+C:\Users\Administrator\Desktop\Code\MyModbusTool\bin\Debug\MyModbusTool.pdb
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.exe
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.pdb
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.Form1.resources
+C:\Users\Administrator\Desktop\Code\MyModbusTool\bin\Debug\NModbus4.dll
+C:\Users\Administrator\Desktop\Code\MyModbusTool\bin\Debug\NModbus4.xml
+C:\Users\Administrator\Desktop\Code\MyModbusTool\obj\Debug\MyModbusTool.csproj.CopyComplete

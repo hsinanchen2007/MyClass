@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QGroupBox {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #E0E0E0, stop: 1 #FFFFFF);
+    border: 4px solid gray;
+    border-radius: 5px;
+    margin-top: 2ex; /* 可调节边线到顶部的位置 ，ex em 都是相对字体大小单位*/ 
+    padding-top:3ex;
+    padding-left:5ex;
+    font-family: &quot;Microsoft YaHei&quot;; 
+    font: 20px  ;
+}
+
+#groupBox::title 
+{
+    subcontrol-origin: margin;/*和margin的起点对齐*/
+    subcontrol-position: top center; /* position at the top center */ 
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF0ECE, stop: 1 #FFFFFF);
+}
+
+#groupBox_2::title{
+   subcontrol-origin: padding;/*和padding开始对齐*/
+   subcontrol-position: top left;  
+   background-color: red;
+}
+
+
+
+#groupBox_3::title{
+   subcontrol-origin: content;/*与内容对齐*/
+   subcontrol-position: top left; 
+   background-color: red;
+}
+ 
+#groupBox_4::title{
+   subcontrol-origin: border;/*与边框对齐*/
+   subcontrol-position: top left; 
+   background-color: red;
+}
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>80</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>310</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>310</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,87 @@
+QComboBox {
+    border: 1px solid blue; /*边框*/
+    border-radius: 10px;  /*圆角*/ 
+    font: italic   bold   24px "Microsoft YaHei";/*字体*/
+}
+
+ /*下拉框展开*/
+QComboBox:on {  
+      border-radius: 0px; 
+}
+
+
+
+
+/*右侧子控件*/
+QComboBox::drop-down {
+
+    subcontrol-origin: padding;
+    subcontrol-position: top right;/*放在右侧*/
+    width: 35px; /*宽度*/
+
+    /*边框*/
+    border-width: 1px;
+    border-color: red;
+    border-style: solid; 
+
+    border-top-right-radius: 10px; /* 需要和QComboBox保持一致 */
+    border-bottom-right-radius: 10px;
+}
+
+/*箭头子控件*/
+QComboBox::down-arrow {  
+      image: url(:/img/down.png);/*图片*/
+}
+
+/*箭头子控件，点击*/
+QComboBox::down-arrow:on { 
+     image: url(:/img/up.png);/*图片*/
+}
+
+
+/*下拉视图*/
+QComboBox QAbstractItemView { 
+    border: 2px solid green; 
+    selection-background-color: yellow;/*选中背景色*/
+    selection-color:green;/*选中文字色*/ 
+    color: black; /*文字颜色*/
+}
+
+
+/*下拉视图每一项*/
+
+ /* 这里需要指定comboBox->setView(new QListView());才生效 */
+QComboBox QAbstractItemView::item
+{
+     border: 1px solid red; /*边框*/ 
+}
+
+/*鼠标划过每一项*/
+QComboBox QAbstractItemView::item:hover
+{ 
+     background:gold;
+}
+
+/*不可编辑的*/
+QComboBox:!editable {
+       background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                 stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+}
+
+
+/*可编辑的下拉框样式指定*/
+
+QComboBox:editable {
+    background: yellow;
+}
+
+QComboBox::drop-down:editable {
+     background: red;
+}
+ 
+QComboBox::drop-down:editable:on {
+     background: blue;
+}
+
+

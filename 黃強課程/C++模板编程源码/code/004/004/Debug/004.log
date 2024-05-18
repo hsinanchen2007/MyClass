@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/8/23 14:25:37。
+     1>项目“C:\Users\35497\Desktop\C++模板进阶\code\004\004\004.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt 004.cpp
+         004.cpp
+     1>c:\users\35497\desktop\c++模板进阶\code\004\004\004.cpp(25): warning C4101: “a”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\35497\Desktop\C++模板进阶\code\004\Debug\004.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\35497\Desktop\C++模板进阶\code\004\Debug\004.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\35497\Desktop\C++模板进阶\code\004\Debug\004.lib" /MACHINE:X86 Debug\004.obj
+         004.vcxproj -> C:\Users\35497\Desktop\C++模板进阶\code\004\Debug\004.exe
+     1>已完成生成项目“C:\Users\35497\Desktop\C++模板进阶\code\004\004\004.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.84

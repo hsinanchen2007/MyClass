@@ -1,0 +1,14 @@
+﻿<Window x:Class="_067.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_067"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  FontSize="18">
+    <Grid>
+        <Button x:Name="buttonMT" Content="测试模态窗口" HorizontalAlignment="Left" Height="75" Margin="160,175,0,0" VerticalAlignment="Top" Width="210" Click="buttonMT_Click"/>
+        <Button x:Name="buttonFMT" Content="测试非模态窗口" HorizontalAlignment="Left" Height="75" Margin="475,175,0,0" VerticalAlignment="Top" Width="210" Click="buttonFMT_Click"/>
+
+    </Grid>
+</Window>

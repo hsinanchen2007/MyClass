@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/left_arrow.png</file>
+        <file>img/right_arrow.png</file>
+        <file>img/tear_indicator.png</file>
+    </qresource>
+</RCC>
