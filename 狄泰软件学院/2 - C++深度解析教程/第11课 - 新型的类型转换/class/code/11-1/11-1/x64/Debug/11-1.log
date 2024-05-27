@@ -1,0 +1,4 @@
+﻿  11-1.cpp
+D:\git\MyClass\狄泰软件学院\2 - C++深度解析教程\第11课 - 新型的类型转换\class\code\11-1\11-1.cpp(19,14): warning C4312: 'type cast': conversion from 'int' to 'PF (__cdecl *)' of greater size
+D:\git\MyClass\狄泰软件学院\2 - C++深度解析教程\第11课 - 新型的类型转换\class\code\11-1\11-1.cpp(21,16): warning C4312: 'type cast': conversion from 'int' to 'Point *' of greater size
+  11-1.vcxproj -> D:\git\MyClass\狄泰软件学院\2 - C++深度解析教程\第11课 - 新型的类型转换\class\code\11-1\x64\Debug\11-1.exe
