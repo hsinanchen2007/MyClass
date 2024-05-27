@@ -2,8 +2,9 @@
 
 int main(int argc, char* argv[])
 {
-    // In C++, as long as variable is defined as bool, internally, it will set it to 0 if value is false/0,
-    // and 1 if value is true or non 0
+    // In C++, as long as variable is defined as bool, internally, 
+    // it will set it to 0 if value is false/0, and 1 if value is 
+    // true or not 0
     bool b = false;
 
     int a = b;

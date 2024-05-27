@@ -20,13 +20,16 @@ void Demo()
 {
     printf("Demo:\n");
 
-    // When a const reference variable is defined, C++ will allocate a space 
-    // to save this variable with valid address, but if its value is changed
-    // from its pointer, not reference, the value will be changed as well
+    // When a const reference variable is defined, 
+    // C++ will allocate a space to save this variable 
+    // with valid address, but if its value is changed
+    // from its pointer, not reference, the value will 
+    // be changed as well
     const int& c = 1;
     int* p = (int*)&c;
 
-    // Cannot assign value directly to c as it is defined as const reference
+    // Cannot assign value directly to c as it is defined 
+    // as const reference
     //c = 5;
 
     *p = 5;

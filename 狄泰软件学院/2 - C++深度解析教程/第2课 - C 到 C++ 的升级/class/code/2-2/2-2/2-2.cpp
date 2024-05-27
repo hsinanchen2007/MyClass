@@ -10,11 +10,13 @@ struct Student
 
 // Below two functions are OK for C, but not C++
 /* 
+// No return type
 f(i)
 {
     printf("i = %d\n", i);
 }
 
+// No return type and void in parameter
 g()
 {
     return 5;

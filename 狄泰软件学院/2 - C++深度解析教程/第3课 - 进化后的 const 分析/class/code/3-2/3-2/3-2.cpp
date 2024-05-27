@@ -6,7 +6,7 @@ void f()
     // function g() can still access its value
     #define a 3
 
-    // the const value is defined within f(), go it will be be accessible from g()
+    // The const value is defined within f(), so it will be be accessible from g()
     const int b = 4;
 }
 
