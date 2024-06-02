@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C33\u8BFE - C\u002B\u002B \u4E2D\u7684\u5B57\u7B26\u4E32\u7C7B\\class\\code\\33-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65AB7F53-C299-4C2E-A0BF-168C18CEECF6}|33-2.vcxproj|D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C33\u8BFE - C\u002B\u002B \u4E2D\u7684\u5B57\u7B26\u4E32\u7C7B\\class\\code\\33-2\\33-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65AB7F53-C299-4C2E-A0BF-168C18CEECF6}|33-2.vcxproj|solutionrelative:33-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "33-2.cpp",
+              "DocumentMoniker": "D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C33\u8BFE - C\u002B\u002B \u4E2D\u7684\u5B57\u7B26\u4E32\u7C7B\\class\\code\\33-2\\33-2.cpp",
+              "RelativeDocumentMoniker": "33-2.cpp",
+              "ToolTip": "D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C33\u8BFE - C\u002B\u002B \u4E2D\u7684\u5B57\u7B26\u4E32\u7C7B\\class\\code\\33-2\\33-2.cpp",
+              "RelativeToolTip": "33-2.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-01T23:57:28.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
