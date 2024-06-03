@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C36\u8BFE - \u7ECF\u5178\u95EE\u9898\u89E3\u6790\u4E09\\class\\code\\36-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{764BD9A2-47EC-4F81-829C-746566DB38C7}|36-1.vcxproj|D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C36\u8BFE - \u7ECF\u5178\u95EE\u9898\u89E3\u6790\u4E09\\class\\code\\36-1\\36-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{764BD9A2-47EC-4F81-829C-746566DB38C7}|36-1.vcxproj|solutionrelative:36-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "36-1.cpp",
+              "DocumentMoniker": "D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C36\u8BFE - \u7ECF\u5178\u95EE\u9898\u89E3\u6790\u4E09\\class\\code\\36-1\\36-1.cpp",
+              "RelativeDocumentMoniker": "36-1.cpp",
+              "ToolTip": "D:\\git\\MyClass\\\u72C4\u6CF0\u8F6F\u4EF6\u5B66\u9662\\2 - C\u002B\u002B\u6DF1\u5EA6\u89E3\u6790\u6559\u7A0B\\\u7B2C36\u8BFE - \u7ECF\u5178\u95EE\u9898\u89E3\u6790\u4E09\\class\\code\\36-1\\36-1.cpp",
+              "RelativeToolTip": "36-1.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T18:25:22.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
