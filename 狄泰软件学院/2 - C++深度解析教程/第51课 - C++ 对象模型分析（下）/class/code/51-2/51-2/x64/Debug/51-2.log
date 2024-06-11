@@ -1,0 +1,18 @@
+﻿  51-2-api.c
+  51-2.cpp
+51-2.obj : error LNK2019: unresolved external symbol "void * __cdecl Demo_Create(int,int)" (?Demo_Create@@YAPEAXHH@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      Demo_Create
+51-2.obj : error LNK2019: unresolved external symbol "int __cdecl Demo_Add(void *,int)" (?Demo_Add@@YAHPEAXH@Z) referenced in function "void __cdecl run(void *,int)" (?run@@YAXPEAXH@Z)
+    Hint on symbols that are defined and could potentially match:
+      Demo_Add
+51-2.obj : error LNK2019: unresolved external symbol "void __cdecl Demo_Free(void *)" (?Demo_Free@@YAXPEAX@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      Demo_Free
+51-2.obj : error LNK2019: unresolved external symbol "void * __cdecl Derived_Create(int,int,int)" (?Derived_Create@@YAPEAXHHH@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      Derived_Create
+51-2.obj : error LNK2019: unresolved external symbol "int __cdecl Derived_Add(void *,int)" (?Derived_Add@@YAHPEAXH@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      Derived_Add
+D:\git\MyClass\狄泰软件学院\2 - C++深度解析教程\第51课 - C++ 对象模型分析（下）\class\code\51-2\x64\Debug\51-2.exe : fatal error LNK1120: 5 unresolved externals
