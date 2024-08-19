@@ -1,0 +1,4 @@
+﻿  005.c
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\005\005\005.c(19,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 3 has type 'int'
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\005\005\005.c(23,2): warning C4013: 'itoa' undefined; assuming extern returning int
+  005.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\005\Debug\005.exe
