@@ -1,0 +1,3 @@
+﻿  006.c
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\006\006\006.c(17,9): warning C4476: 'printf' : unknown type field character '\xc2' in format specifier
+  006.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\006\Debug\006.exe
