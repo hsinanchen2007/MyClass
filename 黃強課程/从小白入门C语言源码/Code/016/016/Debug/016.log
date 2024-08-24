@@ -1,0 +1,4 @@
+﻿  016.c
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\016\016\016.c(29,2): warning C4013: 'sum' undefined; assuming extern returning int
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\016\016\016.c(41,1): warning C4716: 'sum': must return a value
+  016.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\016\Debug\016.exe

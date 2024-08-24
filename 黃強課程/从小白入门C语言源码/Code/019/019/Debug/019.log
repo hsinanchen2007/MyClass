@@ -1,0 +1,4 @@
+﻿  019.c
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\019\019\019.c(31,9): warning C4133: 'initializing': incompatible types - from 'char *' to 'int *'
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\019\019\019.c(47,9): warning C4101: 'p4': unreferenced local variable
+  019.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\019\Debug\019.exe
