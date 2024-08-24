@@ -1,0 +1,3 @@
+﻿  023.c
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\023\023\023.c(22,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  023.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\023\Debug\023.exe
