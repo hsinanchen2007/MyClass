@@ -1,0 +1,5 @@
+﻿  010.cpp
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\010\010\010.cpp(22,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\010\010\010.cpp(23,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double *'
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\010\010\010.cpp(24,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+  010.vcxproj -> D:\git\MyClass\黃強課程\C语言高手之路源码\Code\010\Debug\010.exe

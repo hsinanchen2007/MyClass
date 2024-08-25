@@ -1,0 +1,4 @@
+﻿  009.cpp
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\009\009\009.cpp(24,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\009\009\009.cpp(38,23): warning C4018: '<': signed/unsigned mismatch
+  009.vcxproj -> D:\git\MyClass\黃強課程\C语言高手之路源码\Code\009\Debug\009.exe

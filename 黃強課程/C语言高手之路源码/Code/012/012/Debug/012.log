@@ -1,0 +1,7 @@
+﻿  012.cpp
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\012\012\012.cpp(53,26): warning C4018: '<': signed/unsigned mismatch
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\012\012\012.cpp(124,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\012\012\012.cpp(132,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\012\012\012.cpp(139,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\git\MyClass\黃強課程\C语言高手之路源码\Code\012\012\012.cpp(154,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  012.vcxproj -> D:\git\MyClass\黃強課程\C语言高手之路源码\Code\012\Debug\012.exe
