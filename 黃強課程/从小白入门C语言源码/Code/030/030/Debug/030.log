@@ -1,0 +1,3 @@
+﻿  030.cpp
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\030\030\030.cpp(10,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  030.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\030\Debug\030.exe

@@ -1,0 +1,3 @@
+﻿  027.c
+D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\027\027\027.c(38,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  027.vcxproj -> D:\git\MyClass\黃強課程\从小白入门C语言源码\Code\027\Debug\027.exe
