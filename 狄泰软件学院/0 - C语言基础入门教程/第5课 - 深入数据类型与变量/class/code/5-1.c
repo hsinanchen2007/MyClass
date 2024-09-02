@@ -12,12 +12,14 @@ int main()
     printf("b = %d\n", b);
     printf("\n");
 
+    // a is int, b is short, max value of b is 32767, overflow
     b = a;
 
     printf("a = %d\n", a);
-    printf("b = %d\n", b);
+    printf("b = %d\n", b);  // -15536, unexpected
     printf("\n");
 
+    // b = 30000, smaller than its max value, now it's ok
     b = 30000;
     a = b;
 
@@ -30,6 +32,7 @@ int main()
     printf("f = %f\n", f);
     printf("\n");
 
+    // assign float to int, the 0.14 is be gone 
     f = 3.14f;
     i = f;
 
