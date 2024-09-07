@@ -14,11 +14,11 @@ int main()
             printf("case 0\n");
             for(k=0; k<=2; k=k+1)
                 if( k )
-                    break;
-        break;
+                    break;  //  exit for loop
+            break;  // exit switch
         case 1:
             printf("case 1\n");
-        break;
+            break;  // exit switch
     }
 
 

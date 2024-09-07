@@ -10,10 +10,10 @@ int main()
         {
         case 0:
             printf("%d is even number!\n", i);
-            break;
+            break;  // break out of the switch 
         case 1:
             printf("%d is odd number!\n", i);
-            break;
+            break;  // break out of the switch 
         }
     }
 
