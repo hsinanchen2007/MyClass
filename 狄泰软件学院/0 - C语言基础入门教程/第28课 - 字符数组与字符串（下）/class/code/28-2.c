@@ -8,16 +8,16 @@ int main()
     int len = strlen(s);
     char in[16] = {0};
 
-    printf("s = %s\n", s);
-    printf("len = %d\n", len);
+    printf("s = %s\n", s);      // s = abcd
+    printf("len = %d\n", len);  // len = 4
 
     strcpy(s, d);
     strcat(s, d);
 
     len = strlen(s);
 
-    printf("s = %s\n", s);
-    printf("len = %d\n", len);
+    printf("s = %s\n", s);      // s = efgefg
+    printf("len = %d\n", len);  // len = 6
 
     printf("Input: ");
     scanf("%s", in);

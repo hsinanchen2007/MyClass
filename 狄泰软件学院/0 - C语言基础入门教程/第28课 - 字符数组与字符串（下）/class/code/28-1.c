@@ -8,8 +8,8 @@ int main()
 
     int len = strlen(s);
 
-    printf("size = %d\n", size);
-    printf("len = %d\n", len);
+    printf("size = %d\n", size);    // size = 10
+    printf("len = %d\n", len);      // len = 4
 
     return 0;
 }

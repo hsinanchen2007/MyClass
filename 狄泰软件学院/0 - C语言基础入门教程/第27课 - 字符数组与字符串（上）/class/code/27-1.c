@@ -6,12 +6,12 @@ int main()
     char b[] = { 'D', '.', 'T', '.' };
     int i = 0;
 
-    for(i=0; i<sizeof(a); i++)
+    for(i=0; i<sizeof(a); i++)      // abc
         printf("%c", a[i]);
 
     printf("\n");
 
-    for(i=0; i<sizeof(b); i++)
+    for(i=0; i<sizeof(b); i++)      //D.T.
         printf("%c", b[i]);
 
     printf("\n");
