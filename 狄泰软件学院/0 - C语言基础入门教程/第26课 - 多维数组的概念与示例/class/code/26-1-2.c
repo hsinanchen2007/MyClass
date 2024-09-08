@@ -20,5 +20,9 @@ int main()
         }
     }
 
+    int b[][3] = {1,2,3,4};                     // b[][3] = {{1,2,3}, {4,0,0}};
+    printf("%d\n", sizeof(b)/sizeof(b[0]));     // 2
+    printf("sizeof(b) = %d\n", sizeof(b));      // 24
+    
     return 0;
 }

@@ -12,8 +12,8 @@ int main()
     printf("sizeof(arr) = %d\n", sizeof(arr));
     printf("len(arr) = %d\n", len);
 
-    // arr[1.5] = 15;
-    // arr = a;
+    // arr[1.5] = 15;   ERROR: array size must be integer
+    // arr = a;         ERROR: arr name is const, cannot be changed
 
     for(i=0; i<len; i++)
     {
