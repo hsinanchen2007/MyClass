@@ -8,11 +8,11 @@ int main()
 
     a = (b < 10) ? 1 : 2;
 
-    printf("a = %d\n", a);
+    printf("a = %d\n", a);      // a = 2
 
     (a < 5) ? (a = 5) : (a = 0);
 
-    printf("a = %d\n", a);
+    printf("a = %d\n", a);      // a = 5
 
     /*
     ((a == 5) ? a : b) = 10; // ERROR
@@ -22,13 +22,13 @@ int main()
 
     c = (a = 2, b = 3, a + b);
 
-    printf("a = %d\n", a);
-    printf("b = %d\n", b);
-    printf("c = %d\n", c);
+    printf("a = %d\n", a);      // a = 2
+    printf("b = %d\n", b);      // b = 3
+    printf("c = %d\n", c);      // c = 5
 
     c -= a;  // c = c - a;
 
-    printf("c = %d\n", c);
+    printf("c = %d\n", c);      // c = 3
 
     return 0;
 }
