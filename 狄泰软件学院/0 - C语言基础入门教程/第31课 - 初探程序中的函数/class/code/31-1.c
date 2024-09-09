@@ -15,9 +15,9 @@ int main()
     int r2 = func_demo(5);
     int r3 = func_demo(10);
 
-    printf("r1 = %d\n", r1);
-    printf("r2 = %d\n", r2);
-    printf("r3 = %d\n", r3);
+    printf("r1 = %d\n", r1);    // r1 = 1
+    printf("r2 = %d\n", r2);    // r2 = 9
+    printf("r3 = %d\n", r3);    // r3 = 19
 
     return 0;
 }

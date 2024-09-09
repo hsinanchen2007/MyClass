@@ -47,13 +47,13 @@ int main()
 
     printf("Origin: \n");
 
-    Print(a, 5);
+    Print(a, 5);            // 20 30 10 40 50 
 
     Sort(a, 5);
 
     printf("After: \n");
 
-    Print(a, 5);
+    Print(a, 5);            // 10 20 30 40 50
 
     return 0;
 }
