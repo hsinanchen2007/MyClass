@@ -32,10 +32,11 @@ int main()
 {
     int i = 0;
 
-    printf("sum(1) = %d\n", sum(1));
-    printf("sum(10) = %d\n", sum(10));
-    printf("sum(100) = %d\n", sum(100));
+    printf("sum(1) = %d\n", sum(1));        // sum(1) = 1
+    printf("sum(10) = %d\n", sum(10));      // sum(10) = 55
+    printf("sum(100) = %d\n", sum(100));    // sum(100) = 5050
 
+    // 1, 1, 2, 3, 5, 8, 13, 21, 34, 55,
     for(i=1; i<=10; i++)
     {
         printf("%d, ", fac(i));

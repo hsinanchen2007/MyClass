@@ -25,15 +25,16 @@ int main()
     int x = 1;
     int y = 2;
 
-    printf("x = %d, y = %d\n", x, y);
+    printf("x = %d, y = %d\n", x, y);               // x = 1, y = 2
 
-    SWAP(x, y);   // {int t = x; x = y; y = t;}
+    SWAP(x, y);                                     // {int t = x; x = y; y = t;}
 
-    printf("x = %d, y = %d\n", x, y);
+    printf("x = %d, y = %d\n", x, y);               // x = 2, y = 1
 
-    printf("x + y = %d\n", ADD(x, y));
+    printf("x + y = %d\n", ADD(x, y));              // x + y = 3
 
-    printf("MIN(%d, %d) = %d\n", x, y, MIN(x, y));  // printf("MIN(%d, %d) = %d\n", x, y, (x < y ? x : y));
+    printf("MIN(%d, %d) = %d\n", x, y, MIN(x, y));  // printf("MIN(%d, %d) = %d\n", x, y, (x < y ? x : y)); 
+                                                    // MIN(2, 1) = 1
 
     return 0;
 }
