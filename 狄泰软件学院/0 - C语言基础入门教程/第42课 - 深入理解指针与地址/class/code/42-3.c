@@ -31,6 +31,8 @@ int main()
     long long mr = 0;
 
     if( calculate(5, &ar, &mr) )
+
+        // by using pointer, we get multiple return values
         printf("ar = %lld, mr = %lld\n", ar, mr);
 
     return 0;

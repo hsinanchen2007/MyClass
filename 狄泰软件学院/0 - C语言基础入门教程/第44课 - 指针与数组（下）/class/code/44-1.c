@@ -23,8 +23,11 @@ int main()
         printf("%d, %d\n", p[i], *(p + i));
     }
 
-    printf("a = %p, p = %p\n", a, p);
-    printf("&a = %p, &p = %p\n", &a, &p);
+    printf("a = %p, p = %p\n", a, p);       // a = 00D8FBE0, p = 00D8FBE0, 
+                                            // a and p are pointers, and they pointed to same address
+
+    printf("&a = %p, &p = %p\n", &a, &p);   // &a = 00D8FBE0, &p = 00D8FBD8, 
+                                            // a and p are different variables, so their addresses will be different
 
     return 0;
 }
