@@ -30,16 +30,16 @@ int main()
 
     pFunc = add;
 
-    printf("%d\n", pFunc(1, 2));
-    printf("%d\n", (*pFunc)(3, 4));
+    printf("%d\n", pFunc(1, 2));        // 3
+    printf("%d\n", (*pFunc)(3, 4));     // 7    
 
     pFunc = &mul;
 
-    printf("%d\n", pFunc(5, 6));
-    printf("%d\n", (*pFunc)(7, 8));
+    printf("%d\n", pFunc(5, 6));        // 30
+    printf("%d\n", (*pFunc)(7, 8));     // 56
 
-    printf("1 + ... + 5 = %d\n", calculate(a, 5, add));
-    printf("1 * ... * 5 = %d\n", calculate(a, 5, mul));
+    printf("1 + ... + 5 = %d\n", calculate(a, 5, add));     // 1 + ... + 5 = 15
+    printf("1 * ... * 5 = %d\n", calculate(a, 5, mul));     // 1 * ... * 5 = 120
 
     return 0;
 }
