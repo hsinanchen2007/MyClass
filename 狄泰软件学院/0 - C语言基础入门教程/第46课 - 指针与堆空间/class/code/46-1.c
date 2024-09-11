@@ -18,7 +18,7 @@ int main()
     p = &f;
     p = &d;
 
-    printf("%p\n", p);
+    printf("%p\n", p);      // 010FFC34
 
     // void* 类型的指针无法访问内存中的数据
     // printf("%f\n", *p);

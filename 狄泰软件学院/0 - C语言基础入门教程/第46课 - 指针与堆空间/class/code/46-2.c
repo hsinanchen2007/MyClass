@@ -9,7 +9,7 @@ int main()
     {
         *p = 100;
 
-        printf("%d\n", *p);
+        printf("%d\n", *p);     // 100
 
         free(p);
     }
@@ -25,6 +25,7 @@ int main()
             p[i] = i * 10;
         }
 
+        // 0 10 20 30
         for(i=0; i<4; i++)
         {
             printf("%d\n", p[i]);

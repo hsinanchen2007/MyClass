@@ -11,9 +11,9 @@ int main()
 
     int (*pnb) [2] = b;  // b 的类型是 int(*)[2]
 
-    printf("a = %p, pa = %p\n", a, pa);
+    printf("a = %p, pa = %p\n", a, pa);     // a = 00CFFCD0, pa = 00CFFCD0
     // printf("b = %p, pb = %p\n", b, pb);
-    printf("b = %p, pnb = %p\n", b, pnb);
+    printf("b = %p, pnb = %p\n", b, pnb);   // b = 00CFFCC0, pnb = 00CFFCC0
 
     return 0;
 }

@@ -15,7 +15,7 @@ int main()
 
     *p = 3;     // b = 3;
 
-    printf("a = %d, b = %d\n", a, b);
+    printf("a = %d, b = %d\n", a, b);   // a = 2, b = 3
 
     return 0;
 }
