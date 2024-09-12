@@ -22,13 +22,13 @@ int main()
     d = 0;
     s = -2;
 
-    printf("d = %d\n", d);
-    printf("s = %d\n", s);
+    printf("d = %d\n", d);      // d = 0
+    printf("s = %d\n", s);      // s = -2
 
-    printf("sizeof(enum Day) = %d\n", sizeof(enum Day));
-    printf("sizeof(enum Season) = %d\n", sizeof(enum Season));
+    printf("sizeof(enum Day) = %d\n", sizeof(enum Day));            // sizeof(enum Day) = 4
+    printf("sizeof(enum Season) = %d\n", sizeof(enum Season));      // sizeof(enum Season) = 4
 
-    printf("CONSTANT = %d\n", CONSTANT);
+    printf("CONSTANT = %d\n", CONSTANT);                            // CONSTANT = 12345
 
     // CONSTANT = 54321;
 
