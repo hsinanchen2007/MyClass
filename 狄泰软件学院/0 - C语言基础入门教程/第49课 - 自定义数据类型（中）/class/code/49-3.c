@@ -10,9 +10,11 @@ int main()
     v1.a = 1;
     v1.b = 2;
 
-    v2 = v1;
+    // ERROR: v1 and v2 are noname struct, they cannot assign to each other
+    // v2 = v1;
 
-    pv = &v2;
+    // ERROR: v2 and pv are also considered different type as they are noname struct
+    // pv = &v2;
 
     return 0;
 }

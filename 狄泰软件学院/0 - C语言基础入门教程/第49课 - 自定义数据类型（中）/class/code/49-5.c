@@ -26,9 +26,9 @@ struct Bits3
 
 int main()
 {
-    printf("sizeof(Bits1) = %d\n", sizeof(struct Bits1));
-    printf("sizeof(Bits2) = %d\n", sizeof(struct Bits2));
-    printf("sizeof(Bits3) = %d\n", sizeof(struct Bits3));
+    printf("sizeof(Bits1) = %d\n", sizeof(struct Bits1));   // sizeof(Bits1) = 12
+    printf("sizeof(Bits2) = %d\n", sizeof(struct Bits2));   // sizeof(Bits2) = 3
+    printf("sizeof(Bits3) = %d\n", sizeof(struct Bits3));   // sizeof(Bits3) = 2
 
     return 0;
 }

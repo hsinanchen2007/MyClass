@@ -20,9 +20,9 @@ int main()
 
     g_pt = &t;
 
-    printf("g_pt = %p\n", g_pt);
-    printf("g_pt->a = %d\n", g_pt->a);
-    printf("g_pt->b = %d\n", g_pt->b);
+    printf("g_pt = %p\n", g_pt);            // g_pt = 00F3F93C
+    printf("g_pt->a = %d\n", g_pt->a);      // g_pt->a = 1
+    printf("g_pt->b = %d\n", g_pt->b);      // g_pt->b = 2
 
     return 0;
 }

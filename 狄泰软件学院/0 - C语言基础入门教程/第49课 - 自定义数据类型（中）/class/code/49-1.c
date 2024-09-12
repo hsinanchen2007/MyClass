@@ -3,6 +3,11 @@
 
 typedef  struct Student  Stu;
 
+// we can define struct first by typedef, 
+// but before using this struct, it must be defined completely
+// like before main() or other API call, otherwise compiler
+// cannot know the real definition and members inside the 
+// struct
 struct Student
 {
     char name[20];
