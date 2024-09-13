@@ -16,9 +16,9 @@ int main()
     BYTE b;
     TS ts;
     
-    printf("%d, %d\n", sizeof(INT32), sizeof(i32));
-    printf("%d, %d\n", sizeof(BYTE), sizeof(b));
-    printf("%d, %d\n", sizeof(TS), sizeof(ts));
+    printf("%d, %d\n", sizeof(INT32), sizeof(i32));     // 4, 4
+    printf("%d, %d\n", sizeof(BYTE), sizeof(b));        // 1, 1
+    printf("%d, %d\n", sizeof(TS), sizeof(ts));         // 8, 8
     
     return 0;
 }
