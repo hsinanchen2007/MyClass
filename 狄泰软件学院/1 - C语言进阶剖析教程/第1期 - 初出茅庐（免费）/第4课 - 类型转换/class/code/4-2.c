@@ -10,11 +10,11 @@ int main()
     
     short s = j;  // unsafe
     
-    printf("c = %c\n", c);
-    printf("i = %d\n", i);
-    printf("j = %x\n", j);
-    printf("s = %x\n", s);
-    printf("sizeof(c + s) = %d\n", sizeof(c + s));
+    printf("c = %c\n", c);                          // c = a
+    printf("i = %d\n", i);                          // i = 97
+    printf("j = %x\n", j);                          // j = 11223344
+    printf("s = %x\n", s);                          // s = 3344
+    printf("sizeof(c + s) = %d\n", sizeof(c + s));  // sizeof(c + s) = 4
     
     return 0;
 }

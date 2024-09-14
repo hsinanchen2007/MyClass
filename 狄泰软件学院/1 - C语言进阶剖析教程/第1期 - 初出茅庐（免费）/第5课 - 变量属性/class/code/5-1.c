@@ -18,7 +18,6 @@ int f2()
     return r;
 }
 
-
 int main()
 {
     auto int i = 0;       // 显示声明 auto 属性，i 为栈变量
@@ -27,7 +26,7 @@ int main()
 
     printf("%p\n", &i);
     printf("%p\n", &k);
-    printf("%p\n", &j);   // error
+    // printf("%p\n", &j);   // error
     
     for(i=0; i<5; i++)
     {
