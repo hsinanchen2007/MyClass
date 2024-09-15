@@ -18,9 +18,12 @@ int main()
     
     printf("g_cc = %d\n", g_cc);
     
-    *p = 4;
-    
-    printf("g_cc = %d\n", g_cc);
+    int* g_p = (int*)&g_cc;
+    *g_p = 4;
+
+
+    // *p = 4;
+    // printf("g_cc = %d\n", g_cc);
     
     return 0;
 }
