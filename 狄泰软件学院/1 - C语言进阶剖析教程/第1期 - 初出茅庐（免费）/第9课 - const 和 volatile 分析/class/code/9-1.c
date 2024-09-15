@@ -17,13 +17,11 @@ int main()
     p = (int*)&g_cc;
     
     printf("g_cc = %d\n", g_cc);
-    
-    int* g_p = (int*)&g_cc;
-    *g_p = 4;
 
-
-    // *p = 4;
-    // printf("g_cc = %d\n", g_cc);
+    // error: assignment of read-only location '*p'
+    // this will lead to program crash
+    *p = 4;
+    printf("g_cc = %d\n", g_cc);
     
     return 0;
 }
