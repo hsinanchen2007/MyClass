@@ -42,6 +42,11 @@ void func(struct SoftArray* sa)
 int main()
 {
     int i = 0;
+
+    // "soft array" here, the arrary of struct is the last member of the struct.
+    // its size is not defined and just a marker, no memory is allocated for it.
+    printf("sizeof(struct SoftArray) = %d\n", sizeof(struct SoftArray)); // 4
+
     struct SoftArray* sa = create_soft_array(10);
     
     func(sa);
