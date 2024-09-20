@@ -1,4 +1,4 @@
-// #include <stdio.h>
+#include <stdio.h>
 
 #define C 1
 
@@ -12,7 +12,7 @@ int main()
         s = "This is second printf...\n";
     #endif
 
-    // printf("%s", s);
+    printf("%s", s);        // This is first printf...
     
     return 0;
 }

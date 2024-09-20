@@ -108,7 +108,8 @@
 			"xlocbuf": "cpp",
 			"xlocmes": "cpp",
 			"ranges": "cpp",
-			"span": "cpp"
+			"span": "cpp",
+			"*.ipp": "c"
 		},
 		"printcode.lineNumbers": "off",
 		"print.alternateBrowser": false,
