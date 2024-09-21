@@ -19,8 +19,8 @@ struct S2
 
 int main()
 {
-    printf("%d\n", sizeof(struct S1));
-    printf("%d\n", sizeof(struct S2));
+    printf("%d\n", sizeof(struct S1));  // 8
+    printf("%d\n", sizeof(struct S2));  // 24
 
     return 0;
 }

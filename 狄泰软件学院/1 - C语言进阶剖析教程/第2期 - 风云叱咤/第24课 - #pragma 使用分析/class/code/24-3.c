@@ -22,8 +22,8 @@ struct Test2
 
 int main()
 {
-    printf("sizeof(Test1) = %d\n", sizeof(struct Test1));
-    printf("sizeof(Test2) = %d\n", sizeof(struct Test2));
+    printf("sizeof(Test1) = %d\n", sizeof(struct Test1));   //  sizeof(Test1) = 12
+    printf("sizeof(Test2) = %d\n", sizeof(struct Test2));   //  sizeof(Test2) = 8
 
     return 0;
 }
