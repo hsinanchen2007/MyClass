@@ -18,14 +18,27 @@ int main()
 	cout << t2.joinable() << endl;//
 
 	//thread对象在销毁之前必须调用join，否则程序终止，或者detach
-	//t2.join();//join等待子线程执行完毕，类似于waitforsingleobject函数。
-	t2.detach(); //与当前线程对象分离，成为孤儿线程
+	t2.join();//join等待子线程执行完毕，类似于waitforsingleobject函数。
+	
+	// t2.detach(); //与当前线程对象分离，成为孤儿线程
 
 	return 0;
 }
-
 
 void   ThreadFun(string   &str)
 {
 	cout << str.c_str() << endl;
 }
+
+// by t2.join();
+// 0
+// 0
+// 14468
+// 1
+//hello
+
+// by t2.detach();
+// 0
+// 0
+// 29064
+// 1
