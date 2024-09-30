@@ -8,23 +8,25 @@ int main()
     
     p = a;
     
-    printf("a = %p\n", a);
-    printf("p = %p\n", p);
-    printf("&p = %p\n", &p);
-    printf("sizeof(a) = %d\n", sizeof(a));
-    printf("sizeof(p) = %d\n", sizeof(p));
+    printf("a = %p\n", a);                  // a = 006FFEA8
+    printf("p = %p\n", p);                  // p = 006FFEA8
+    printf("&p = %p\n", &p);                // &p = 006FFEA4
+    printf("sizeof(a) = %d\n", sizeof(a));  // sizeof(a) = 20
+    printf("sizeof(p) = %d\n", sizeof(p));  // sizeof(p) = 4
    
     printf("\n");
 
     p = b;
     
-    printf("b = %p\n", b);
-    printf("p = %p\n", p);
-    printf("&p = %p\n", &p);
-    printf("sizeof(b) = %d\n", sizeof(b));
-    printf("sizeof(p) = %d\n", sizeof(p));
+    printf("b = %p\n", b);                  // b = 006FFE9C
+    printf("p = %p\n", p);                  // p = 006FFE9C
+    printf("&p = %p\n", &p);                // &p = 006FFEA4
+    printf("sizeof(b) = %d\n", sizeof(b));  // sizeof(b) = 8
+    printf("sizeof(p) = %d\n", sizeof(p));  // sizeof(p) = 4
     
-    b = a;
+    // array name is a constant pointer
+    // when assign a to b, it is not allowed
+    // b = a;
   
     return 0;
 }
