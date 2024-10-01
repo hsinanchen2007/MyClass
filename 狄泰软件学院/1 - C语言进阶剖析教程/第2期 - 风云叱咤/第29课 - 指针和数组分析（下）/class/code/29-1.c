@@ -18,6 +18,8 @@ int main()
     
     printf("\n");
     
+    // a[i] is equivalent to *(a + i) and i[a] is equivalent to *(i + a) 
+    // so i[a] is equivalent to a[i]
     for(i=0; i<5; i++)
     {
         i[a] = i + 10;

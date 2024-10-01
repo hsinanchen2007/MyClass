@@ -11,10 +11,10 @@ int main()
         printf("%c\n", s[i]);
     }
     
-    printf("%s\n", s);
+    printf("%s\n", s);                  // Hello
 
-    printf( "%d\n", strlen(s) );
-    printf( "%d\n", strlen("123") );
+    printf( "%d\n", strlen(s) );        // 5, strlen() stops at first '\0'
+    printf( "%d\n", strlen("123") );    // 3
  
     
     return 0;

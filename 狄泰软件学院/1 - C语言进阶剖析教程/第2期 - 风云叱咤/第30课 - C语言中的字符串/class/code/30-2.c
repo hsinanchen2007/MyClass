@@ -6,12 +6,12 @@ int main()
     char c = *("123" + 1);
     char t = *"";
     
-    printf("%c\n", b);
-    printf("%c\n", c);
-    printf("%d\n", t);
+    printf("%c\n", b);          // a
+    printf("%c\n", c);          // 2
+    printf("%d\n", t);          // 0
     
-    printf("%s\n", "Hello");
-    printf("%p\n", "World");
+    printf("%s\n", "Hello");    // Hello
+    printf("%p\n", "World");    // 00503020
     
     return 0;
 }

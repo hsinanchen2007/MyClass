@@ -10,12 +10,12 @@ int main()
     char* p2 = s2;
     int* p = &i;
 	
-    printf("%d\n", p0 - p1);
-    printf("%d\n", p0 + p2);
-    printf("%d\n", p0 - p2);
-    printf("%d\n", p0 - p);
-    printf("%d\n", p0 * p2);
-    printf("%d\n", p0 / p2);
+    printf("%d\n", p0 - p1);    // -3
+    // printf("%d\n", p0 + p2); // error, invalid operands to binary +
+    // printf("%d\n", p0 - p2); // error, invalid operands to binary -
+    // printf("%d\n", p0 - p);  // error, invalid operands to binary -
+    // printf("%d\n", p0 * p2); // error, invalid operands to binary *
+    // printf("%d\n", p0 / p2); // error, invalid operands to binary /
 	
     return 0;
 }
