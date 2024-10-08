@@ -12,12 +12,12 @@ int main()
     }
     else
     {
-        printf("Non Equal\n");
+        printf("Non Equal\n");  // Non Equal
     }
     
     if( strcmp(S1, S2) == 0 )
     {
-        printf("Equal\n");
+        printf("Equal\n");      // Equal
     }
     else
     {

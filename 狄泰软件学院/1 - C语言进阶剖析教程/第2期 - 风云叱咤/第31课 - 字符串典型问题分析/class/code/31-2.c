@@ -10,17 +10,19 @@ int main()
     
     snprintf(buf, sizeof(buf), src);
     
-    printf("strlen(STR) = %d\n", strlen(STR));
-    printf("sizeof(STR) = %d\n", sizeof(STR));
+    printf("strlen(STR) = %d\n", strlen(STR));  // strlen(STR) = 7
+    printf("sizeof(STR) = %d\n", sizeof(STR));  // sizeof(STR) = 22
     
-    printf("strlen(src) = %d\n", strlen(src));
-    printf("sizeof(src) = %d\n", sizeof(src));
+    printf("strlen(src) = %d\n", strlen(src));  // strlen(src) = 7
+    printf("sizeof(src) = %d\n", sizeof(src));  // sizeof(src) = 4
     
-    printf("strlen(buf) = %d\n", strlen(buf));
-    printf("sizeof(buf) = %d\n", sizeof(buf));
+    printf("strlen(buf) = %d\n", strlen(buf));  // strlen(buf) = 7
+    printf("sizeof(buf) = %d\n", sizeof(buf));  // sizeof(buf) = 255
     
-    printf("src = %s\n", src);
-    printf("buf = %s\n", buf);
+    printf("src = %s\n", src);                  // src = Hello,
+    printf("buf = %s\n", buf);                  // buf = Hello,
     
+    printf("%d\n", sizeof("ABCD EFGH"));        // 10 = 9 + 1 where 1 is '\0
+
     return 0;
 }
