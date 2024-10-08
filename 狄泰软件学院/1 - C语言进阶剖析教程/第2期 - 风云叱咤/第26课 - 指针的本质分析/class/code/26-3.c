@@ -9,6 +9,7 @@ int main()
     int* const p3 = &i;
     const int* const p4 = &i;
     
+    // 口訣 "左數右指" : const在指针左邊其指向的内容不可变，const在指针右邊其指针本身不可变
     *p1 = 1;    // compile error
     p1 = NULL;  // ok
     
