@@ -7,6 +7,7 @@ void printArray(int a[], int size)
     
     printf("printArray: %d\n", sizeof(a));
 
+    // array inside computer is still one dimension array
     for(i=0; i<size; i++)
     {
         printf("%d\n", a[i]);
@@ -25,7 +26,7 @@ int main()
     {
         for(j=0; j<3; j++)
         {
-            printf("%d, ", *(*(a+i) + j));
+            printf("%d, ", *(*(a+i) + j));  // 就是 *(a + 1) ==> a[i], *(a[i] + j) ==> a[i][j]
         }
         
         printf("\n");
