@@ -2,6 +2,7 @@
 
 typedef int(*Weapon)(int);
 
+// Weapon 並不知道要用哪個武器直到被call
 void fight(Weapon wp, int arg)
 {
     int result = 0;
@@ -57,6 +58,7 @@ int gun(int n)
 
 int main()
 {
+    // 回調函數, 這裡給flight()的是函數指針
     fight(knife, 3);
     fight(sword, 4);
     fight(gun, 5);
