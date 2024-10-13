@@ -3,17 +3,22 @@
 
 float average(int n, ...)
 {
+    // prepare for the arguments
     va_list args;
+
     int i = 0;
     float sum = 0;
     
+    // initialize the arguments
     va_start(args, n);
     
     for(i=0; i<n; i++)
     {
+        // get the next argument
         sum += va_arg(args, int);
     }
     
+    // clean up the list
     va_end(args);
     
     return sum / n;
