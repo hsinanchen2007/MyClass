@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// global and static global variables are located at 靜態存储區
 int g_v = 1;
 
 static int g_vs  = 2;
