@@ -15,6 +15,7 @@ int main()
     
     for(i='a'; i<'z'; i++)
     {
+        // ERROR!!! d1.p is not allocated memory, will cause segmentation fault
         d1.p[i] = 0; 
     }
     
@@ -24,6 +25,7 @@ int main()
     
     for(i='a'; i<'z'; i++)
     {
+        // ERROR!!! d2.p is allocated memory with size 5 bytes, but copied 26 bytes, will cause buffer overflow
         d2.p[i] = i; 
     }
     

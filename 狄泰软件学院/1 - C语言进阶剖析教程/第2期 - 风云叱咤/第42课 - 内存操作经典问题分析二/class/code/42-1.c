@@ -20,6 +20,7 @@ void func(unsigned int size)
     
     if( size % 2 != 0 )
     {
+        // ERROR!!! when size is odd, p is not freed, will cause memory leak
         return; 
     }
     
@@ -37,7 +38,9 @@ int main()
     int* p = (int*)malloc(5 * sizeof(int));
     
     test(p, 5);
-    
+
+    // ERROR!!! p is freed inside test(), here double free will cause memory corruption
+    // 最好是在同一个函数中malloc/free
     free(p); 
     
     func(9);
