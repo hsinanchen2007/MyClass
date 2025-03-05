@@ -1,0 +1,28 @@
+Here are a few pointers to places where the extensions have
+been picked up off the web.  This is not a complete list
+of Tcl extensions by any means.
+
+ActiveTcl - http://tcl.activestate.com
+blt - http://sourceforge.net/projects/blt
+cdrbq - http://sourceforge.net/projects/cdrtoaster 
+exmh - http://www.beedub.com/exmh
+expect - http://expect.nist.gov
+itcl - http://sourceforge.net/projects/incrtcl
+mingw - http://sourceforge.net/projects/tcl
+print - http://www.du.edu/~mschwart/tcl-tk.htm
+sdarchive - http://mini.net/sdarchive
+snack - http://www.speech.kth.se/snack/download.html
+tcl8_3 - http://sourceforge.net/projects/tcl
+tcl8_4 - http://sourceforge.net/projects/tcl, www.activestate.com
+tclkit - http://www.equi4.com/tclkit
+tcllib - http://sourceforge.net/projects/tcllib
+tcljava - http://sourceforge.net/projects/tcljava
+tclsoap - http://sourceforge.net/projects/tclsoap
+tclxml - http://sourceforge.net/projects/tclxml
+tea2 - tar of CVS from sourceforge tcl project http://sourceforge.net/projects/tcl
+thread - http://sourceforge.net/projects/tcl
+tkcvs - http://sourceforge.net/projects/tkcvs
+tkimg - http://sourceforge.net/projects/tkimg
+tkman - http://sourceforge.net/projects/tkman
+tktable - http://sourceforge.net/projects/tktable
+vtcl - http://sourceforge.net/projects/vtcl

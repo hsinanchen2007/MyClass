@@ -1,0 +1,28 @@
+Copyright 2003 Brent Welch
+
+This CD-ROM contains a collection of freely available Tcl/Tk software and
+extensions.  Each distribution generally contains its own copyright
+notices.  Traditionally, Tcl/Tk and its extensions have "BSD-style"
+copyright that allows redistribution and commercial use.  The license
+terms for Tcl/Tk can be found in tcl8_4/tcl8.4.2/license.terms.
+Other packages contain their own copyright notices.  Inclusion
+of software on this CD implies no warranty, and it does not imply
+any exclusive right or claim of ownership on my part or on the
+part of the publisher of this book, Prentice Hall.
+
+This CD includes the ActiveTcl distribution from ActiveState.
+
+Commercial support for ActiveTcl is available through the
+TclClinic at http://www.ActiveState.com. Peer support resources
+for ActiveTcl issues can also be found at the ActiveState Web
+site under support at http://www.ActiveState.com/support/
+
+ActiveTcl  is  the  latest   Tcl   binary   distribution   from
+ActiveState. The latest release of ActiveTcl as  well  as  other
+professional tools for Tcl developers  are  available  from  the
+ActiveState web site at http://www.ActiveState.com.
+
+ActiveState and ActiveTcl are trademarks of ActiveState Corporation.
+
+In addition, the TclDevKit software requires a license that
+you need to get at http://www.activestate.com/Products/Tcl_Dev_Kit/

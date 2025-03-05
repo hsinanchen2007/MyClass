@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Practical Programming in Tcl and Tk, 4th Ed</title>
+<META http-equiv=content-type content="text/html; charset=ISO-8859-1"><LINK 
+href="sdarchive/sdarchive_files/sdarchive.css" type=text/css rel=stylesheet>
+</head>
+<body bgcolor=white text=black>
+<img align=left src=images/book4cover_sm.png>
+<h2>Practical Programming in Tcl and Tk, 4th ed</h2>
+This CD-ROM contains software and documentation for Tcl/Tk
+extensions and applications.  It also contains
+all the examples from the book. To stay up-to-date with
+Tcl/Tk and this book, please visit:
+<ul>
+<li><a href=http://www.beedub.com/book/>www.beedub.com/book</a>
+<li><a href=http://mini.net/tcl/>The Tcler's Wiki</a>
+<li><a href=http://www.tcl.tk/>www.tcl.tk</a>
+</ul>
+Or contact <a href=mailto:welch@acm.org>Brent Welch</a>
+
+<br clear>
+<h2>Tcl/Tk Distributions</h2>
+There are 4 kinds of Tcl/Tk distributions on the CD-ROM.
+<ul>
+<li>The <a href=tcl8_3>tcl8_3</a> and <a href=tcl8_4>tcl8_4</a>
+directories contain the source distributions for recent
+Tcl versions.  The latest on this CD-ROM is Tcl/Tk 8.4.2.
+There are <a href=tcl8_4/html/contents.htm>Manual Pages</a>
+for Tcl and Tk commands and C APIs.
+
+<img src=images/ASLOGO.jpg align=right>
+
+<li>The <a href=ActiveTcl>ActiveTcl</a> directory contains
+pre-compiled binary distributions created by
+<a href=http://www.activestate.com>ActiveState</a>.
+This includes the TclDevKit professional toolkit, which includes
+a debugger, syntax checker, and more.
+ActiveTcl is free, and the distribution comes with many extensions
+already configured. 
+<a href=http://www.activestate.com/Products/Tcl_Dev_Kit/>TclDevKit</a> requires a license, and you can
+visit the ActiveState web site to obtain a trail license.
+<br>
+<font size=-1>ActiveTcl is a trademark of ActiveState Corporation</font>
+
+<li>The <a href=tclkit8.4.2>tclkit8.4.2</a> directory contains
+pre-compiled binaries for the Tclkit application, which
+is an extended Tcl/Tk shell used to create Starkits.
+You can also use Tclkit just like Wish or Tclsh, and it comes
+as a self-contained, single file that is quite convenient.
+The <a href=tclkit8.4.1>tclkit8.4.1</a> directory contains
+Tclkit builds for additional platforms, including Macintosh,
+that were not yet available for 8.4.2 when this CD was assembled.
+There are also complete sources and instructions for building
+Tclkit yourself.
+
+<li>The <a href=handheld>handheld</a> directory contains Tcl variants
+that have been created for small handheld devices.  These are
+fairly experimental, but I can reccommend the Toucan development
+environment for creating Tcl apps on PalmOS.
+</ul>
+<h2>Starkits</h2>
+The <a href=sdarchive/index.htm>sdarchive</a> directory contains quite a lot
+of Starkits, which are packaged Tcl/Tk extensions or applications that
+are designed to work with Tclkit.  Starkits are a great packaging and
+deployment technology for Tcl/Tk applications.  There is a new book
+chapter on them.
+<h2>TclHttpd</h2>
+The <a href=tclhttpd3.4.3>tclhttpd3.4.3</a> directory contains the TclHttpd
+distribution.  You should be able to run the server directly from
+this location with a command like:
+<pre>
+tclsh8.3 /mnt/cdrom/tclbook4/tclhttpd3.4.3/bin/httpd.tcl
+tclsh83 D:\tclhttpd3.4.3\bin\httpd.tcl
+</pre>
+<h2>Book Examples</h2>
+The <a href=exsource>exsource</a> folder contains one file for
+each example, plus a few sample applications made by assembling
+some of the examples into one file.  You are free to use this sample
+code for any purpose.
+<h2>The Tcler's Wiki</h2>
+This <a href=wiki>wiki</a> directory
+contains a stand-alone copy of the Tcler's Wiki
+web site, <a href=http://mini.net/tcl>wiki.tcl.tk</a>.  To browse
+it locally, use the wikit.kit starkit like this:
+<pre>
+tclkit wiki/wikit.kit wiki/wikit.tkd -readonly
+</pre>
+<h2>Free Tcl/Tk Software</h2>
+There are more extensions and applications
+distributed as <tt>.zip</tt> or <tt>.tar.gz</tt>
+source distributions.  Some are purely Tcl scripts.  Others require
+a compiler to create binary extensions from C code.  The
+<a href=mingw>mingw</a> folder contains a free C compiler for Windows.
+On UNIX systems you can use the free gcc compiler or the compiler distributed
+by your vendor.
+The following directories contain Tcl/Tk applications and extensions.
+<ul>
+<li><a href=applications>applications</a>
+<li><a href=extensions>extensions</a>
+</ul>
