@@ -109,7 +109,9 @@
 			"xlocmes": "cpp",
 			"ranges": "cpp",
 			"span": "cpp",
-			"*.ipp": "c"
+			"*.ipp": "c",
+			"ctype.h": "c",
+			"stdio.h": "c"
 		},
 		"printcode.lineNumbers": "off",
 		"print.alternateBrowser": false,
