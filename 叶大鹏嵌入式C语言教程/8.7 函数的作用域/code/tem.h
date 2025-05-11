@@ -1,0 +1,2 @@
+
+float GetCelTem(void);

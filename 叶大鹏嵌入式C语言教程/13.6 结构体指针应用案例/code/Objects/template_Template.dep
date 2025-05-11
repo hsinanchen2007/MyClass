@@ -1,0 +1,42 @@
+Dependencies for Project 'template', Target 'Template': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.c)(0x64017B7F)(--c99 -c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I ..\code -I .\sensor-I.\RTE\_Template-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include\ARMCM4.h)(0x5E8306CE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x5E8ED12C)
+I (.\sensor\temp_humi.h)(0x64016DA1)
+I (.\sensor\co2.h)(0x63EAEEA6)
+I (.\sensor\sensor_common.h)(0x64016E4F)
+I (.\sensor\pm25.h)(0x63DC7DA8)
+F (.\sensor\co2.c)(0x63DC7BDC)(--c99 -c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I ..\code -I .\sensor-I.\RTE\_Template-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM4 -D_RTE_-o .\objects\co2.o --omf_browse .\objects\co2.crf --depend .\objects\co2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (sensor\co2.h)(0x63EAEEA6)
+I (sensor\sensor_common.h)(0x64016E4F)
+I (sensor\temp_humi.h)(0x64016DA1)
+F (.\sensor\pm25.c)(0x63DC7DAB)(--c99 -c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I ..\code -I .\sensor-I.\RTE\_Template-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM4 -D_RTE_-o .\objects\pm25.o --omf_browse .\objects\pm25.crf --depend .\objects\pm25.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (sensor\pm25.h)(0x63DC7DA8)
+I (sensor\sensor_common.h)(0x64016E4F)
+I (sensor\temp_humi.h)(0x64016DA1)
+F (.\sensor\temp_humi.c)(0x64016D93)(--c99 -c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I ..\code -I .\sensor-I.\RTE\_Template-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM4 -D_RTE_-o .\objects\temp_humi.o --omf_browse .\objects\temp_humi.crf --depend .\objects\temp_humi.d)
+I (sensor\temp_humi.h)(0x64016DA1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (RTE\Device\ARMCM4\startup_ARMCM4.s)(0x5E8ED12C)(--cpu Cortex-M4 --li -g --apcs=interwork -I.\RTE\_Template-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "ARMCM4 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_armcm4.lst --xref -o .\objects\startup_armcm4.o --depend .\objects\startup_armcm4.d)
+F (RTE\Device\ARMCM4\system_ARMCM4.c)(0x5E8ED12C)(--c99 -c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I ..\code -I .\sensor-I.\RTE\_Template-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM4 -D_RTE_-o .\objects\system_armcm4.o --omf_browse .\objects\system_armcm4.crf --depend .\objects\system_armcm4.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include\ARMCM4.h)(0x5E8306CE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x5E8ED12C)
