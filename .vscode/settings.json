@@ -3,7 +3,11 @@
         "xstring": "cpp",
         "iostream": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "stdio.h": "c",
+        "barrier": "c",
+        "bitset": "c",
+        "memory_resource": "c"
     },
     "cmake.configureOnOpen": false
 }
