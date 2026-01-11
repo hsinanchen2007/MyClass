@@ -54,5 +54,12 @@
     },
     "cmake.configureOnOpen": false,
     "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c17"
+    "C_Cpp.default.cStandard": "c17",
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": ["-NoExit", "-Command", "chcp 65001; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8"]
+        }
+    }
 }
