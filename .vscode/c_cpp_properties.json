@@ -12,8 +12,8 @@
             ],
             "windowsSdkVersion": "10.0.22621.0",
             "compilerPath": "cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++20",
             "intelliSenseMode": "windows-msvc-x64"
         },
         {
@@ -27,8 +27,8 @@
                 "_DEBUG"
             ],
             "compilerPath": "/usr/bin/g++",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++20",
             "intelliSenseMode": "linux-gcc-x64"
         },
         {
@@ -42,8 +42,8 @@
                 "_DEBUG"
             ],
             "compilerPath": "/usr/bin/clang++",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++20",
             "intelliSenseMode": "macos-clang-x64",
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
