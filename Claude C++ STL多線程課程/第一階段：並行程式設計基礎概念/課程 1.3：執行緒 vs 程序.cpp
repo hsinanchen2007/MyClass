@@ -1,4 +1,4 @@
-// 檔案：lesson_1_3_shared_memory.cpp
+﻿// 檔案：lesson_1_3_shared_memory.cpp
 // 說明：展示同一程序內的執行緒共享記憶體
 
 #include <iostream>
