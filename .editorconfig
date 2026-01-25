@@ -1,0 +1,16 @@
+# 頂層設定檔
+root = true
+
+# 所有檔案的預設設定
+[*]
+charset = utf-8-bom
+end_of_line = crlf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# C/C++ 檔案特別設定
+[*.{c,cpp,h,hpp}]
+charset = utf-8-bom
+

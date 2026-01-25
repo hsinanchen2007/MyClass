@@ -1,4 +1,4 @@
-// 檔案：lesson_1_4_race_condition.cpp
+﻿// 檔案：lesson_1_4_race_condition.cpp
 
 #include <iostream>
 #include <thread>
