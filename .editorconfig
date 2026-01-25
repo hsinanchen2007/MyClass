@@ -13,3 +13,4 @@ insert_final_newline = true
 # C/C++ 檔案特別設定
 [*.{c,cpp,h,hpp}]
 charset = utf-8-bom
+
