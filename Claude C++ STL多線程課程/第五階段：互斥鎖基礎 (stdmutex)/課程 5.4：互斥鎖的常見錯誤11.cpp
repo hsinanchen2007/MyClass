@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_lock_order.cpp
+﻿// 檔案：lesson_5_4_lock_order.cpp
 // 說明：鎖定順序不一致導致死結
 
 #include <iostream>

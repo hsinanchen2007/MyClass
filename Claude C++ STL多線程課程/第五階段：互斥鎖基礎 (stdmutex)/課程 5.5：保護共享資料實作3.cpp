@@ -1,4 +1,4 @@
-// 檔案：lesson_5_5_bank_account.cpp
+﻿// 檔案：lesson_5_5_bank_account.cpp
 // 說明：執行緒安全的銀行帳戶類別
 
 #include <iostream>

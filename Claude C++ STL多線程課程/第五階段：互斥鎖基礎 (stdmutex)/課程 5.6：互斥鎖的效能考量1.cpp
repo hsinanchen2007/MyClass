@@ -1,4 +1,4 @@
-// 檔案：lesson_5_6_lock_overhead.cpp
+﻿// 檔案：lesson_5_6_lock_overhead.cpp
 // 說明：測量互斥鎖的基本開銷
 
 #include <iostream>

@@ -1,4 +1,4 @@
-#include <thread>
+﻿#include <thread>
 
 int main() {
     std::thread t1([]() {});

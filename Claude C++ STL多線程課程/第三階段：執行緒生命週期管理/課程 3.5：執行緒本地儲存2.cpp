@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <thread>
 
 int globalCounter = 0;              // 共享

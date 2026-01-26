@@ -1,4 +1,4 @@
-// 檔案：lesson_5_6_minimize_critical_section.cpp
+﻿// 檔案：lesson_5_6_minimize_critical_section.cpp
 // 說明：減少臨界區段大小提升效能
 
 #include <iostream>

@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_exception_safe.cpp
+﻿// 檔案：lesson_5_4_exception_safe.cpp
 // 說明：使用 RAII 確保例外安全
 
 #include <iostream>

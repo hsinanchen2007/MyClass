@@ -1,4 +1,4 @@
-// 檔案：lesson_5_1_no_mutex.cpp
+﻿// 檔案：lesson_5_1_no_mutex.cpp
 // 說明：沒有互斥鎖保護的計數器（有競爭條件）
 
 #include <iostream>

@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <thread>
 
 thread_local int counter = 0;  // 每個執行緒有獨立的 counter

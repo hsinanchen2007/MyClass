@@ -1,4 +1,4 @@
-// 檔案：race_demo.cpp
+﻿// 檔案：race_demo.cpp
 #include <thread>
 
 int counter = 0;

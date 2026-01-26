@@ -1,4 +1,4 @@
-// 檔案：lesson_5_2_cas_lock.cpp
+﻿// 檔案：lesson_5_2_cas_lock.cpp
 // 說明：使用 CAS 實現的自旋鎖
 
 #include <iostream>

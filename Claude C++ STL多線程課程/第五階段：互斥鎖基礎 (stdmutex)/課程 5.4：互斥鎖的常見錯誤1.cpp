@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_forget_unlock.cpp
+﻿// 檔案：lesson_5_4_forget_unlock.cpp
 // 說明：忘記解鎖的錯誤示範
 
 #include <iostream>

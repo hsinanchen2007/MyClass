@@ -1,4 +1,4 @@
-// 檔案：lesson_5_2_futex_concept.cpp
+﻿// 檔案：lesson_5_2_futex_concept.cpp
 // 說明：Futex 概念的簡化說明（非實際實現）
 
 #include <iostream>

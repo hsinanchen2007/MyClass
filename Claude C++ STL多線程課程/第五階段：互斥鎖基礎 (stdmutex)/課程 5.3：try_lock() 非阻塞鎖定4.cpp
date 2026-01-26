@@ -1,4 +1,4 @@
-// 檔案：lesson_5_3_avoid_livelock.cpp
+﻿// 檔案：lesson_5_3_avoid_livelock.cpp
 // 說明：使用隨機退避避免活鎖
 
 #include <iostream>

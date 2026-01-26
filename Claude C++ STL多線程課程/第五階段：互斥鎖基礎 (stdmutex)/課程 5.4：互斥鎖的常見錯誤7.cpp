@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_refactor.cpp
+﻿// 檔案：lesson_5_4_refactor.cpp
 // 說明：透過重構避免重複鎖定
 
 #include <iostream>

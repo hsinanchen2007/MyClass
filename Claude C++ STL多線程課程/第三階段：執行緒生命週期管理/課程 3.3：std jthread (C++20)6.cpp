@@ -1,4 +1,4 @@
-class jthread {
+﻿class jthread {
 public:
     // 建構
     jthread() noexcept;

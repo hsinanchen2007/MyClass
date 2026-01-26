@@ -1,4 +1,4 @@
-// 檔案：lesson_5_5_safe_interface.cpp
+﻿// 檔案：lesson_5_5_safe_interface.cpp
 // 說明：安全的介面設計
 
 #include <iostream>

@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <thread>
 
 void takeOwnership(std::thread t) {

@@ -1,4 +1,4 @@
-// 檔案：lesson_5_5_thread_safe_logger.cpp
+﻿// 檔案：lesson_5_5_thread_safe_logger.cpp
 // 說明：執行緒安全的日誌記錄器
 
 #include <iostream>

@@ -1,4 +1,4 @@
-// 檔案：lesson_2_1_first_thread.cpp
+﻿// 檔案：lesson_2_1_first_thread.cpp
 
 #include <iostream>
 #include <thread>

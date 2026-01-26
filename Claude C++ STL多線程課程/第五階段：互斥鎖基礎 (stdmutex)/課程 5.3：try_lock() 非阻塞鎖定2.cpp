@@ -1,4 +1,4 @@
-// 檔案：lesson_5_3_retry_pattern.cpp
+﻿// 檔案：lesson_5_3_retry_pattern.cpp
 // 說明：使用 try_lock() 實現有限次數的重試
 
 #include <iostream>

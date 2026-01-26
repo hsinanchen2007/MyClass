@@ -1,4 +1,4 @@
-// 檔案：lesson_5_3_avoid_deadlock.cpp
+﻿// 檔案：lesson_5_3_avoid_deadlock.cpp
 // 說明：使用 try_lock() 避免死結
 
 #include <iostream>

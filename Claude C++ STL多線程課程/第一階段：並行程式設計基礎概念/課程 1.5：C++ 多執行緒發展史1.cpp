@@ -1,4 +1,4 @@
-// C++11 之前的 POSIX 多執行緒寫法
+﻿// C++11 之前的 POSIX 多執行緒寫法
 #include <pthread.h>
 #include <stdio.h>
 

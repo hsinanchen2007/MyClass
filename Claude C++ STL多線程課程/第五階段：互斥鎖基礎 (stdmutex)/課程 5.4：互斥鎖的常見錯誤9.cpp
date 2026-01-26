@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_exception_unsafe.cpp
+﻿// 檔案：lesson_5_4_exception_unsafe.cpp
 // 說明：例外導致 unlock 未執行
 
 #include <iostream>

@@ -1,4 +1,4 @@
-// 檔案：lesson_5_6_avoid_io_in_lock.cpp
+﻿// 檔案：lesson_5_6_avoid_io_in_lock.cpp
 // 說明：避免在臨界區段內進行 I/O
 
 #include <iostream>

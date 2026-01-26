@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_raii_fix.cpp
+﻿// 檔案：lesson_5_4_raii_fix.cpp
 // 說明：使用 lock_guard 自動管理鎖
 
 #include <iostream>

@@ -1,4 +1,4 @@
-// 檔案：lesson_5_6_contention.cpp
+﻿// 檔案：lesson_5_6_contention.cpp
 // 說明：測量鎖競爭對效能的影響
 
 #include <iostream>

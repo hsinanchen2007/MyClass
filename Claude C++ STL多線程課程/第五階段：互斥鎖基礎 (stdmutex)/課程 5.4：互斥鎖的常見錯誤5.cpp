@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_double_lock.cpp
+﻿// 檔案：lesson_5_4_double_lock.cpp
 // 說明：重複鎖定的錯誤
 
 #include <iostream>

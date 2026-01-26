@@ -1,4 +1,4 @@
-// 檔案：lesson_5_5_dangerous_interface.cpp
+﻿// 檔案：lesson_5_5_dangerous_interface.cpp
 // 說明：危險的介面設計
 
 #include <iostream>

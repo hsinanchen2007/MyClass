@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_scope_too_large.cpp
+﻿// 檔案：lesson_5_4_scope_too_large.cpp
 // 說明：保護範圍太大，降低效能
 
 #include <iostream>

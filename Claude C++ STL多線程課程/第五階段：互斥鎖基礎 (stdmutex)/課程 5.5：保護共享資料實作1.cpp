@@ -1,4 +1,4 @@
-// 檔案：lesson_5_5_safe_counter.cpp
+﻿// 檔案：lesson_5_5_safe_counter.cpp
 // 說明：執行緒安全的計數器類別
 
 #include <iostream>

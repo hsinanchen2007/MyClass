@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_scope_too_small.cpp
+﻿// 檔案：lesson_5_4_scope_too_small.cpp
 // 說明：保護範圍太小，仍有競爭條件
 
 #include <iostream>

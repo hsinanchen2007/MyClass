@@ -1,4 +1,4 @@
-// 檔案：lesson_5_6_lock_granularity.cpp
+﻿// 檔案：lesson_5_6_lock_granularity.cpp
 // 說明：比較粗粒度鎖與細粒度鎖的效能
 
 #include <iostream>

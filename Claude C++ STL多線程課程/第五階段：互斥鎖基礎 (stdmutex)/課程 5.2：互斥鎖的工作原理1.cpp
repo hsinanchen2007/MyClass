@@ -1,4 +1,4 @@
-// 檔案：lesson_5_2_spinlock_concept.cpp
+﻿// 檔案：lesson_5_2_spinlock_concept.cpp
 // 說明：展示自旋鎖的基本概念（僅供理解，非生產環境使用）
 
 #include <iostream>

@@ -1,4 +1,4 @@
-// 檔案：lesson_5_4_early_return.cpp
+﻿// 檔案：lesson_5_4_early_return.cpp
 // 說明：早期返回導致忘記解鎖
 
 #include <iostream>

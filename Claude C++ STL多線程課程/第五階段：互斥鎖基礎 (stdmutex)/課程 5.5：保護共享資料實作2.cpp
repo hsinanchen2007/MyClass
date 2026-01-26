@@ -1,4 +1,4 @@
-// 檔案：lesson_5_5_copyable_counter.cpp
+﻿// 檔案：lesson_5_5_copyable_counter.cpp
 // 說明：可複製的執行緒安全計數器（明確定義複製行為）
 
 #include <iostream>

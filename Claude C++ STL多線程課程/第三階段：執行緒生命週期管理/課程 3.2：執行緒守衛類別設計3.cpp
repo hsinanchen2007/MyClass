@@ -1,4 +1,4 @@
-class DetachingThread {
+﻿class DetachingThread {
     std::thread t;
     
 public:

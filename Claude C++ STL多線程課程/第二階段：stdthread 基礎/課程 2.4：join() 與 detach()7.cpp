@@ -1,4 +1,4 @@
-/*
+﻿/*
 # 第二階段：std::thread 基礎
 
 ## 課程 2.4：join() 與 detach()

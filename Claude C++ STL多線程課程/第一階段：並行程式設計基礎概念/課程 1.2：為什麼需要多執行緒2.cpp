@@ -1,4 +1,4 @@
-// 檔案名稱：lesson_1_2_responsiveness.cpp
+﻿// 檔案名稱：lesson_1_2_responsiveness.cpp
 // 課程：1.2 - 為什麼需要多執行緒
 // 說明：展示多執行緒如何改善程式響應性
 
