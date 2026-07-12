@@ -14,82 +14,86 @@
     },
     "tasks": [
         {
+            "label": "C++: build active file (cross-platform)",
             "type": "shell",
-            "label": "C/C++: cl.exe build active file",
-            "command": "cl.exe",
+            "command": "/usr/bin/g++",
             "args": [
-                "/Zi",
-                "/EHsc",
-                "/std:c++20",
-                "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                "-fdiagnostics-color=always",
+                "-g",
+                "-O0",
+                "-std=c++20",
+                "-Wall",
+                "-Wextra",
+                "-o",
+                "/tmp/claudeclass-vscode-debug",
+                "${file}",
+                "-pthread"
             ],
+            "linux": {
+                "command": "/usr/bin/g++",
+                "args": [
+                    "-fdiagnostics-color=always",
+                    "-g",
+                    "-O0",
+                    "-std=c++20",
+                    "-Wall",
+                    "-Wextra",
+                    "-o",
+                    "/tmp/claudeclass-vscode-debug",
+                    "${file}",
+                    "-pthread"
+                ]
+            },
+            "osx": {
+                "command": "/usr/bin/clang++",
+                "args": [
+                    "-fcolor-diagnostics",
+                    "-fansi-escape-codes",
+                    "-g",
+                    "-O0",
+                    "-std=c++20",
+                    "-Wall",
+                    "-Wextra",
+                    "-arch",
+                    "arm64",
+                    "-o",
+                    "/tmp/claudeclass-vscode-debug",
+                    "${file}",
+                    "-pthread"
+                ]
+            },
+            "windows": {
+                "command": "cl.exe",
+                "args": [
+                    "/Zi",
+                    "/EHsc",
+                    "/std:c++20",
+                    "/nologo",
+                    "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+                    "${file}"
+                ]
+            },
             "options": {
                 "cwd": "${fileDirname}"
             },
             "problemMatcher": [
+                "$gcc",
                 "$msCompile"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Windows MSVC compiler"
-        },
-        {
-            "type": "shell",
-            "label": "C/C++: g++ build active file",
-            "command": "g++",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "-std=c++20",
-                "-Wall",
-                "-Wextra",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
-                "${file}",
-                "-pthread"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true,
+                "showReuseMessage": false
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
+            "runOptions": {
+                "reevaluateOnRerun": true
             },
-            "detail": "Linux GCC compiler"
-        },
-        {
-            "type": "shell",
-            "label": "C/C++: clang++ build active file",
-            "command": "clang++",
-            "args": [
-                "-fcolor-diagnostics",
-                "-g",
-                "-std=c++20",
-                "-Wall",
-                "-Wextra",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
-                "${file}",
-                "-pthread"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "macOS Clang compiler (Xcode)"
+            "detail": "Linux uses GCC, macOS uses Apple Clang, and Windows keeps the existing Visual Studio 2022 MSVC setup."
         }
     ]
 }
